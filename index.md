@@ -10,10 +10,4 @@ This is a place for me to display the software I create and document my software
 
 
 ## Dev Log Posts
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{post.url}}">{{post.title}}</a>
-    </li>
-    {% end for %}
-</ul>
+<a href="./_posts/2023-11-06-welcome-to-jekyll.markdown">Dev Log 1: Creating the website</a>
