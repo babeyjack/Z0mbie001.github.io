@@ -5,3 +5,15 @@
 layout: page
 ---
 # Welcome to my website
+
+This is a place for me to display the software I create and document my software programming journey. 
+
+
+## Dev Log Posts
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{post.url}}">{{post.title}}</a>
+    </li>
+    {% end for %}
+</ul>
