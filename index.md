@@ -7,7 +7,7 @@ permalink: /index
 ---
 
 
-This is the index page
+# This is the index page
 
 ## Development Logs
 
