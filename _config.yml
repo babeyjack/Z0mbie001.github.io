@@ -1,5 +1,7 @@
-# Where things are
 remote_theme        : pages-themes/slate@v0.2.0
+
+title               : Z0mbie001's Portfolio and Dev Log
+# Where things are
 source              : .
 destination         : ./_site
 collections_dir     : .
