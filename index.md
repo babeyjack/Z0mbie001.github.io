@@ -1,8 +1,6 @@
-layout: page
-
-title: "Index"
-
-permalink: /index
+---
+pre
+---
 
 
 This is the index page
