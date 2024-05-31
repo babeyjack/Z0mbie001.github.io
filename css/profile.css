@@ -7,6 +7,7 @@ body
 {
     display: grid;
     grid-template-columns: 1.5fr 4fr;
+    grid-template-rows: 4fr 1fr;
     gap: 10px;
 }
 
@@ -23,6 +24,12 @@ aside, ul
 {
     list-style: none;
     padding: 10px;
+}
+
+footer
+{
+    grid-row: 2;
+    grid-column: span 2;
 }
 
 h1
@@ -146,4 +153,11 @@ a
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+}
+
+@media only screen and (max-width: 500px)
+{
+    footer {grid-column: 1;}
+    aside {grid-row: 2; grid-column: 2;}
+    #profile-main {grid-column: span 2;}
 }
