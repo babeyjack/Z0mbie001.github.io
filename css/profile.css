@@ -1,0 +1,81 @@
+body
+{
+    background-color: black;
+}
+
+#profile-body
+{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    gap: 10px;
+}
+
+aside
+{
+    background-color: rgb(56, 56, 56);
+    grid-column: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside, ul
+{
+    list-style: none;
+}
+
+h1
+{
+    color:rgb(206, 206, 206);
+    text-align: center;
+}
+
+h2
+{
+    color:rgb(206, 206, 206);
+    text-align: center;
+}
+
+p
+{
+    color: rgb(241, 241, 241);
+}
+
+a
+{
+    color: rgb(192, 0, 0);
+}
+
+#profile-main
+{
+    grid-column: 2;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dropdown
+{
+    display: block;
+    background-color: rgb(54, 54, 54);
+    min-width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: grey;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.list-holder
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
