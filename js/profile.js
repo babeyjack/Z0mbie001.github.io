@@ -1,6 +1,5 @@
 // Import Data
 import data from '../json/profile.json' with {type: "json" };
-console.log(data);
 
 // Get UI Elements 
 const qualificationHolder = document.getElementById("qualifications");
