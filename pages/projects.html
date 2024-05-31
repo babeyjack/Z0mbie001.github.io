@@ -2,6 +2,7 @@
 <html lang="en_GB">
     <head>
         <link rel="stylesheet" href="../css/profile.css">
+        <script type="module" src="../js/projects.js"></script>
 		<meta name="title" content="Jack Babey - Official Site"/>
 		<meta name="description" content="The OFFICIAL SITE of Jack Babey."/>
 		<meta name="keywords" content="Jack Babey"/>
@@ -10,7 +11,6 @@
 		<title>Jack Babey's Profile</title> 
     </head>
     <body>
-        <script src="../js/profile.js"></script>
         <header>
             <h1>Projects</h1>
         </header>
@@ -25,15 +25,7 @@
             <div id="profile-main" style="grid-column: span 2;">
                 <p>Welcome to my projects page, this has a list of all of the projects that I have created and wish to show off.
                     If you would like to return to the profile page, <a href="./profile.html">click here</a>.</p>
-                <div class="list-holder">
-                    <button type="button" class="collapsible" onclick="hrefFunction('./projects/telium.html')">Telium: Alien Hide and Seek</button>
-                    <button type="button" class="collapsible" onclick="hrefFunction('./projects/')">2D Platformer: A basic 2D Platformer</button>
-                    <button type="button" class="collapsible" onclick="hrefFunction('./projects/')">Adventure Story: A 2D RPG with Turn Based Combat</button>
-                    <button type="button" class="collapsible" onclick="hrefFunction('./projects/')">Graphsys: A TCP server-based Graphing program</button>
-                    <button type="button" class="collapsible" onclick="hrefFunction('./projects/')">Reversi: A 2-Player Board Game, also known as Orthelo</button>
-                    <button type="button" class="collapsible" onclick="hrefFunction('./projects/')">Scoreboard System: A Web-based portal that tracks scores</button>
-                    <button type="button" class="collapsible" onclick="hrefFunction('./projects/')">Finance Planner: A Excel Spredsheet to help track budgets and expenses</button>
-                </div>
+                <div class="list-holder" id="projects"></div>
             </div>  
         </div>
 
@@ -41,15 +33,5 @@
             <p>This website was created by Jack Babey in 2024 and hosted via GitHub Pages. 
             It was most recently updated on the 31st May 2024</p>
         </footer>
-
-        <!--Script for Collapsable objects, doesn't when run in external script-->
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-
-            function hrefFunction(link)
-            {
-                window.location.href = link;
-            }
-        </script>
     </body>
 </html>

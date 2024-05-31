@@ -14,7 +14,7 @@ function refreshQualifications()
     {
         var newButton = document.createElement("button");
         newButton.type = "button";
-        newButton.className = "collapsible";
+        newButton.className = "collapsable";
         newButton.innerText = data.Qualifications[i].Title;
 
         var newDiv = document.createElement("div");
@@ -45,7 +45,7 @@ function refreshExperiences()
     {
         var newButton = document.createElement("button");
         newButton.type = "button";
-        newButton.className = "collapsible";
+        newButton.className = "collapsable";
         newButton.innerText = data.Experience[i].Title;
 
         var newDiv = document.createElement("div");
@@ -80,24 +80,24 @@ function refreshHobbies()
     {
         var newButton = document.createElement("button");
         newButton.type = "button";
-        newButton.className = "collapsible";
+        newButton.className = "collapsable";
         newButton.innerText = data.Hobbies[i].Title;
-
+        
         var newDiv = document.createElement("div");
         newDiv.className = "dropdown-content";
-
+        
         var newList = document.createElement("ul");
         for(let j = 0; j < data.Hobbies[i].Details.length; j++)
         {
             var newListItem = document.createElement("li");
             var newPara = document.createElement("p");
             newPara.innerText = data.Hobbies[i].Details[j];
-
+            
             newListItem.appendChild(newPara);
             newList.appendChild(newListItem);
         }
         newDiv.appendChild(newList);
-
+        
         hobbiesHolder.appendChild(newButton);
         hobbiesHolder.appendChild(newDiv);
     }
@@ -146,3 +146,18 @@ function clearHobbies()
 refreshQualifications();
 refreshExperiences();
 refreshHobbies();
+
+var coll = document.getElementsByClassName("collapsable");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}

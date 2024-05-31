@@ -65,7 +65,7 @@ a
     margin-bottom: 0px;
 }
 
-.collapsible
+.collapsable
 {
     background-color: rgb(54, 54, 54);
     width: 100%;
@@ -82,14 +82,14 @@ a
     border-radius: 10px;
 }
 
-.collapsible::after
+.collapsable::after
 {
     content: '\02795';
     color: white;
     float: right;
 }
 
-.active, .collapsible:hover
+.active, .collapsable:hover
 {
     background-color: rgb(39, 39, 39);
 }
@@ -120,6 +120,7 @@ a
 {
     text-align: center;
     margin: 0px;
+    margin-top: 18px;
 }
 
 .dropdown-content ul
