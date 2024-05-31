@@ -12,7 +12,7 @@ function refreshProjects()
     {
         var newButton = document.createElement("button");
         newButton.type = "button";
-        newButton.className = "collapsible";
+        newButton.className = "collapsable";
         newButton.innerText = data.Projects[i].Title;
         newButton.onclick = () => hrefFunction(data.Projects[i].Link);
 
