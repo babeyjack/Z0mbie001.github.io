@@ -99,5 +99,134 @@
                 "Computer Science with Year in Industry (Ongoing)"
             ]
         }
+    ],
+    "Experience":
+    [
+        {
+            "Title": "Sound Stage Systems (2021)",
+            "Role": "Sound Engineer",
+            "Details":
+            [
+                "AV Engineering",
+                "Health & Safety"
+            ]
+        },
+        {
+            "Title": "ROARR! Dinosaur Adventure (September 2021 - June 2022)",
+            "Role": "Seasonal Crew Member - Food & Beverages",
+            "Details":
+            [
+                "Customer Service",
+                "Communication Skills",
+                "Team Work",
+                "Cash Handling",
+                "Health & Safety",
+                "Hygiene & Cleanliness",
+                "Organisation",
+                "Accuracy, Quality & Speed of Service",
+                "Product Knowledge and Up-selling"
+            ]
+        },
+        {
+            "Title": "Go Ape (June 2022 - Onwards)",
+            "Role": "Outdoor Activity Instructor",
+            "Details":
+            [
+                "High-ropes",
+                "Customer Service",
+                "Team Work",
+                "Health & Safety",
+                "Working Under Pressure",
+                "Organisation",
+                "Communication Skills",
+                "Accuracy & Precision",
+                "Product Knowledge and Up-selling",
+                "Knowledge of Saftey Systems and Procedures",
+                "Problem Solving"
+            ]
+        },
+        {
+            "Title": "Boost Climbing (September 2017 - Onwards)",
+            "Role": "Volunteer Climbing Instructor",
+            "Details":
+            [
+                "Customer Service",
+                "Team Work",
+                "Health & Safety",
+                "Organisation",
+                "Problem Solving",
+                "Working Under Pressure",
+                "Communication Skills",
+                "Accuracy & Precision",
+                "Knowledge of Saftey Systems and Procedures"
+            ]
+        },
+        {
+            "Title": "University of Nottingham (2023 - Onwards)",
+            "Role": "Casual Climbing Instructor",
+            "Details":
+            [
+                "Customer Service",
+                "Team Work",
+                "Health & Safety",
+                "Organisation",
+                "Problem Solving",
+                "Working Under Pressure",
+                "Communication Skills",
+                "Accuracy & Precision",
+                "Knowledge of Saftey Systems and Procedures"
+            ]
+        },
+        {
+            "Title": "Nottingham Climbing Centre",
+            "Role": "Climbing Instructor",
+            "Details":
+            [
+                "Customer Service",
+                "Team Work",
+                "Health & Safety",
+                "Organisation",
+                "Problem Solving",
+                "Working Under Pressure",
+                "Communication Skills",
+                "Accuracy & Precision",
+                "Knowledge of Saftey Systems and Procedures"
+            ]
+        }
+    ],
+    "Hobbies":
+    [
+        {
+            "Title": "Climbing",
+            "Details":
+            [
+                "I have been climbing since 2011",
+                "I have competed at a National Level",
+                "I have climbed both Indoors and Outdoors",
+                "I have also completed a multi-pitch up Tryfan in North Wales, among others"
+            ]
+        },
+        {
+            "Title": "Computer Science",
+            "Details":
+            [
+                "I built my own computer in 2017",
+                "I have created many game prototypes using Unity Engine and C#",
+                "I have 2 Raspberry Pi's and an Arduino and use them for physical programming, such as PiHole and PiVPN",
+                "I have a high-level of knowledge of streaming and recording in high quality",
+                "I have a high-level of knowledge about computers",
+                "I was part of a regional team in the Thorpe Park Programming Project, and made it to the finals in London",
+                "I have proficiency in all areas of Microsoft Office",
+                "I program in many different programming languages including, Python, C++, C#, HTML, and Linux Command Line"
+            ]
+        },
+        {
+            "Title": "Sound Engineering",
+            "Details":
+            [
+                "I have practiced Sound Engineering since 2017",
+                "I regularly mixed live for over 200 people, including using livestreams, until 2023"
+            ]
+        }
     ]
 }
