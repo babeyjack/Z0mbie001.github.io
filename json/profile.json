@@ -2,8 +2,8 @@
     "Qualifications": 
     [
         {
-            "Body": "Mountain Training",
-            "Awards": 
+            "Title": "Mountain Training",
+            "Details": 
             [
                 "Foundation Coach Training (2017/10 September 2021)",
                 "Climbing Wall Instructor Training (20 Febuary 2022)",
@@ -12,10 +12,91 @@
             ]
         },
         {
-            "Body": "",
-            "Awards":
+            "Title": "NICAS",
+            "Details":
             [
-                ""
+                "NICAS Level 1 (28 March 2015)",
+                "NICAS Level 2 (10 December 2015)",
+                "NICAS Level 3 (9 September 2016)",
+                "NICAS Level 4 (10 December 2017)"
+            ]
+        },
+        {
+            "Title": "Udemy Online Classroom",
+            "Details":
+            [
+                "2D Platformer Programming Course (28 June 2019)",
+                "2D RPG Programming Course (17 August 2022)",
+                "C++ Programming Course (Ongoing)"
+            ]
+        },
+        {
+            "Title": "Taekwondo (2010 - 2016)",
+            "Details":
+            [
+                "Blue Belt, Brown Tabs (3rd Kup) (2016)"
+            ]
+        },
+        {
+            "Title": "Scouting Association (2010 - 2018)",
+            "Details":
+            [
+                "Bronze Award",
+                "Silver Award",
+                "Sixer in both Cubs and Scouts"
+            ]
+        },
+        {
+            "Title": "National Citizen Service (2021)",
+            "Details":
+            [
+                "2-Week Course incl. Social Action Project"
+            ]
+        },
+        {
+            "Title": "uptree (2021)",
+            "Details":
+            [
+                "2-hour Virtual Work Experience with ARM"
+            ]
+        },
+        {
+            "Title": "Litcham School (2015 - 2020)",
+            "Details":
+            [
+                "English Literature (7)",
+                "English Language (7)",
+                "Mathematics (9)",
+                "Further Mathematics (A)",
+                "Statistics",
+                "Physics (8)",
+                "Chemestry (9)",
+                "Biology (8)",
+                "French (5)",
+                "Design Technology: Timbers (8)",
+                "Information Technology (95% Avg)",
+                "Computer Science (9)",
+                "Geography (7)"
+
+            ]
+        },
+        {
+            "Title": "Wymondham College (2021 - 2023)",
+            "Details":
+            [
+                "Mathematics (A)",
+                "Further Mathematics (B)",
+                "Physics (A)",
+                "Computer Science (A)",
+                "Sixth Form Star",
+                "Head Teacher's Award"
+            ]
+        },
+        {
+            "Title": "University of Nottingham (2023 - Onwards)",
+            "Details":
+            [
+                "Computer Science with Year in Industry (Ongoing)"
             ]
         }
     ]
