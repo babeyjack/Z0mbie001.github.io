@@ -7,11 +7,6 @@
             ""
         ]
     },
-    "Projects":
-    {
-        "Title": "",
-        "Link": ""
-    },
     "Experience":
     {
         "Title": "",
@@ -20,5 +15,10 @@
         [
             ""
         ]
+    },
+    "Projects":
+    {
+        "Title": "",
+        "Link": ""
     }
 }
