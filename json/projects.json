@@ -28,6 +28,10 @@
         {
             "Title": "Finance Planner: An Excel Spreadsheet to help track budgets and expenses",
             "Link": ""
+        },
+        {
+            "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
+            "Link": ""
         }
     ]
 }
