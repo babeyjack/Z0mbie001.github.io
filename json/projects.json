@@ -6,32 +6,32 @@
             "Link": "/pages/projects/telium.html"
         },
         {
+            "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
+            "Link": "/pages/projects/babyypos.html"
+        },
+        {
             "Title": "2D Platformer: A basic 2D Side-Scrolling Adventrue",
-            "Link": ""
+            "Link": "/pages/projects/2dplat.html"
         },
         {
             "Title": "Adventure Story: A 2D RPG with Turn Based Combat",
-            "Link": ""
+            "Link": "/pages/projects/adventurestory.html"
         },
         {
             "Title": "Graphsys: A TCP Server-Client Based Graphing Program",
-            "Link": ""
+            "Link": "/pages/projects/graphsys.html"
         },
         {
             "Title": "Reversi: A 2-Player Board Game, also known as Orthelo",
-            "Link": ""
+            "Link": "/pages/projects/reversi.html"
         },
         {
             "Title": "Scoreboard System: A Web-based portal that tracks scores",
-            "Link": ""
+            "Link": "/pages/projects/scoreboard.html"
         },
         {
             "Title": "Finance Planner: An Excel Spreadsheet to help track budgets and expenses",
-            "Link": ""
-        },
-        {
-            "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
-            "Link": ""
+            "Link": "/pages/projects/financeplan.html"
         }
     ]
 }
