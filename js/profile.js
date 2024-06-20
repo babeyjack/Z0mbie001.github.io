@@ -1,6 +1,3 @@
-// Import Data
-import data from '../json/profile.json' with {type: "json" };
-
 // Get UI Elements 
 const qualificationHolder = document.getElementById("qualifications");
 const experienceHolder = document.getElementById("experience");
@@ -10,97 +7,103 @@ const hobbiesHolder = document.getElementById("hobbies");
 function refreshQualifications()
 {
     clearQualifications();
-    for(let i = 0; i < data.Qualifications.length; i++)
-    {
-        var newButton = document.createElement("button");
-        newButton.type = "button";
-        newButton.className = "collapsable";
-        newButton.innerText = data.Qualifications[i].Title;
-
-        var newDiv = document.createElement("div");
-        newDiv.className = "dropdown-content";
-
-        var newList = document.createElement("ul");
-        for(let j = 0; j < data.Qualifications[i].Details.length; j++)
+    fetch("/json/profile.json").then((res) => res.json()).then((data) => {
+        for(let i = 0; i < data.Qualifications.length; i++)
         {
-            var newListItem = document.createElement("li");
-            var newPara = document.createElement("p");
-            newPara.innerText = data.Qualifications[i].Details[j];
+            var newButton = document.createElement("button");
+            newButton.type = "button";
+            newButton.className = "collapsable";
+            newButton.innerText = data.Qualifications[i].Title;
 
-            newListItem.appendChild(newPara);
-            newList.appendChild(newListItem);
+            var newDiv = document.createElement("div");
+            newDiv.className = "dropdown-content";
+
+            var newList = document.createElement("ul");
+            for(let j = 0; j < data.Qualifications[i].Details.length; j++)
+            {
+                var newListItem = document.createElement("li");
+                var newPara = document.createElement("p");
+                newPara.innerText = data.Qualifications[i].Details[j];
+
+                newListItem.appendChild(newPara);
+                newList.appendChild(newListItem);
+            }
+            newDiv.appendChild(newList);
+
+            qualificationHolder.appendChild(newButton);
+            qualificationHolder.appendChild(newDiv);
         }
-        newDiv.appendChild(newList);
-
-        qualificationHolder.appendChild(newButton);
-        qualificationHolder.appendChild(newDiv);
-    }
+    });
 }
 
 // Refresh Experiences
 function refreshExperiences()
 {
     clearExperiences();
-    for(let i = 0; i < data.Experience.length; i++)
-    {
-        var newButton = document.createElement("button");
-        newButton.type = "button";
-        newButton.className = "collapsable";
-        newButton.innerText = data.Experience[i].Title;
-
-        var newDiv = document.createElement("div");
-        newDiv.className = "dropdown-content";
-
-        var newHeader = document.createElement("h3");
-        newHeader.innerText = data.Experience[i].Role
-
-        var newList = document.createElement("ul");
-        for(let j = 0; j < data.Experience[i].Details.length; j++)
+    fetch("/json/profile.json").then((res) => res.json()).then((data) => {
+        for(let i = 0; i < data.Experience.length; i++)
         {
-            var newListItem = document.createElement("li");
-            var newPara = document.createElement("p");
-            newPara.innerText = data.Experience[i].Details[j];
+            var newButton = document.createElement("button");
+            newButton.type = "button";
+            newButton.className = "collapsable";
+            newButton.innerText = data.Experience[i].Title;
 
-            newListItem.appendChild(newPara);
-            newList.appendChild(newListItem);
+            var newDiv = document.createElement("div");
+            newDiv.className = "dropdown-content";
+
+            var newHeader = document.createElement("h3");
+            newHeader.innerText = data.Experience[i].Role
+
+            var newList = document.createElement("ul");
+            for(let j = 0; j < data.Experience[i].Details.length; j++)
+            {
+                var newListItem = document.createElement("li");
+                var newPara = document.createElement("p");
+                newPara.innerText = data.Experience[i].Details[j];
+
+                newListItem.appendChild(newPara);
+                newList.appendChild(newListItem);
+            }
+            newDiv.appendChild(newHeader);
+            newDiv.appendChild(newList);
+
+            experienceHolder.appendChild(newButton);
+            experienceHolder.appendChild(newDiv);
         }
-        newDiv.appendChild(newHeader);
-        newDiv.appendChild(newList);
-
-        experienceHolder.appendChild(newButton);
-        experienceHolder.appendChild(newDiv);
-    }
+    });
 }
 
 // Refresh Hobbies
 function refreshHobbies()
 {
     clearHobbies();
-    for(let i = 0; i < data.Hobbies.length; i++)
-    {
-        var newButton = document.createElement("button");
-        newButton.type = "button";
-        newButton.className = "collapsable";
-        newButton.innerText = data.Hobbies[i].Title;
-        
-        var newDiv = document.createElement("div");
-        newDiv.className = "dropdown-content";
-        
-        var newList = document.createElement("ul");
-        for(let j = 0; j < data.Hobbies[i].Details.length; j++)
+    fetch("/json/profile.json").then((res) => res.json()).then((data) => {
+        for(let i = 0; i < data.Hobbies.length; i++)
         {
-            var newListItem = document.createElement("li");
-            var newPara = document.createElement("p");
-            newPara.innerText = data.Hobbies[i].Details[j];
+            var newButton = document.createElement("button");
+            newButton.type = "button";
+            newButton.className = "collapsable";
+            newButton.innerText = data.Hobbies[i].Title;
             
-            newListItem.appendChild(newPara);
-            newList.appendChild(newListItem);
+            var newDiv = document.createElement("div");
+            newDiv.className = "dropdown-content";
+            
+            var newList = document.createElement("ul");
+            for(let j = 0; j < data.Hobbies[i].Details.length; j++)
+            {
+                var newListItem = document.createElement("li");
+                var newPara = document.createElement("p");
+                newPara.innerText = data.Hobbies[i].Details[j];
+                
+                newListItem.appendChild(newPara);
+                newList.appendChild(newListItem);
+            }
+            newDiv.appendChild(newList);
+            
+            hobbiesHolder.appendChild(newButton);
+            hobbiesHolder.appendChild(newDiv);
         }
-        newDiv.appendChild(newList);
-        
-        hobbiesHolder.appendChild(newButton);
-        hobbiesHolder.appendChild(newDiv);
-    }
+    });
 }
 
 // Clear Qualifications

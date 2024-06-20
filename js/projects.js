@@ -1,27 +1,26 @@
-// Import Data
-import data from '../json/projects.json' with {type: "json" };
-
 // Get UI Elements
 const projectHolder = document.getElementById("projects");
 
 // Refresh Projects
-function refreshProjects()
+async function refreshProjects()
 {
     clearProjects();
-    for(let i = 0; i < data.Projects.length; i++)
-    {
-        var newButton = document.createElement("button");
-        newButton.type = "button";
-        newButton.className = "collapsable";
-        newButton.innerText = data.Projects[i].Title;
-        newButton.onclick = () => hrefFunction(data.Projects[i].Link);
+    fetch("/json/projects.json").then((res) => res.json()).then((data) => {
+        for(let i = 0; i < data.Projects.length; i++)
+        {
+            var newButton = document.createElement("button");
+            newButton.type = "button";
+            newButton.className = "collapsable";
+            newButton.innerText = data.Projects[i].Title;
+            newButton.onclick = () => hrefFunction(data.Projects[i].Link);
 
-        var newDiv = document.createElement("div");
-        newDiv.className = "dropdown-content";
+            var newDiv = document.createElement("div");
+            newDiv.className = "dropdown-content";
 
-        projectHolder.appendChild(newButton);
-        projectHolder.appendChild(newDiv);
-    }
+            projectHolder.appendChild(newButton);
+            projectHolder.appendChild(newDiv);
+        }
+    });
 }
 
 // Clear Projects
@@ -43,5 +42,6 @@ function hrefFunction(link)
     window.location.href = link;
 }
 
+
 // Calls function on page refresh
-refreshProjects();
+await refreshProjects();
