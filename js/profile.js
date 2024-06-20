@@ -3,6 +3,8 @@ const qualificationHolder = document.getElementById("qualifications");
 const experienceHolder = document.getElementById("experience");
 const hobbiesHolder = document.getElementById("hobbies");
 
+var coll = [];
+
 // Refresh Qualifications
 function refreshQualifications()
 {
@@ -14,6 +16,15 @@ function refreshQualifications()
             newButton.type = "button";
             newButton.className = "collapsable";
             newButton.innerText = data.Qualifications[i].Title;
+            newButton.addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
 
             var newDiv = document.createElement("div");
             newDiv.className = "dropdown-content";
@@ -47,6 +58,15 @@ function refreshExperiences()
             newButton.type = "button";
             newButton.className = "collapsable";
             newButton.innerText = data.Experience[i].Title;
+            newButton.addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
 
             var newDiv = document.createElement("div");
             newDiv.className = "dropdown-content";
@@ -84,6 +104,15 @@ function refreshHobbies()
             newButton.type = "button";
             newButton.className = "collapsable";
             newButton.innerText = data.Hobbies[i].Title;
+            newButton.addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
             
             var newDiv = document.createElement("div");
             newDiv.className = "dropdown-content";
@@ -149,18 +178,3 @@ function clearHobbies()
 refreshQualifications();
 refreshExperiences();
 refreshHobbies();
-
-var coll = document.getElementsByClassName("collapsable");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
