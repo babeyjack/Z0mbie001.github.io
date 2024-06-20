@@ -22,7 +22,8 @@ aside
 
 aside p
 {
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 aside
@@ -61,6 +62,7 @@ p
 ul
 {
     list-style: none;
+    padding: 0px;
 }
 
 a
