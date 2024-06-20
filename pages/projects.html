@@ -10,9 +10,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"> 
 		<link rel="shortcut icon" type="image/png" href="../favicon.png">
 		<title>Jack Babey's Profile</title> 
-        <!--GitHub Calendar-->
-        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     </head>
     <body>
         <header>
@@ -30,13 +27,9 @@
                 <p>Welcome to my projects page, this has a list of all of the projects that I have created and wish to show off.
                     If you would like to return to the profile page, <a href="./profile.html">click here</a>.</p>
                 <h2>GitHub Stats</h2>
-                <!--<div class="calendar">
-                    <!--Loading Stuff
-                    Loading the data just for you.
-                </div>-->
-                <img src="https://github-readme-stats.vercel.app/api?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true"/>
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=Z0mbie001&theme=midnight-purple&hide_border=true"/>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact"/>
+                <img src="https://github-readme-stats.vercel.app/api?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" alt="Jack Babey's GitHub stats"/>
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=Z0mbie001&theme=midnight-purple&hide_border=true" alt="Jack Babey's GitHub Stats"/>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact" alt="Jack Babey's GitHub Stats"/>
                 <h2>Project List</h2>
                 <div class="list-holder" id="projects"></div>
             </div>  
@@ -46,12 +39,5 @@
             <p>This website was created by Jack Babey in 2024 and hosted via GitHub Pages. 
             It was most recently updated on the 31st May 2024</p>
         </footer>
-
-        <script>
-            GitHubCalendar(".calendar", "Z0mbie001");
-
-            // or enable responsive functionality:
-            GitHubCalendar(".calendar", "Z0mbie001", { responsive: true });
-        </script>
     </body>
 </html>
