@@ -2,20 +2,8 @@
     "Projects":
     [
         {
-            "Title": "Telium: Alien Hide and Seek",
-            "Link": "/pages/projects/telium.html"
-        },
-        {
             "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
             "Link": "/pages/projects/babyypos.html"
-        },
-        {
-            "Title": "2D Platformer: A basic 2D Side-Scrolling Adventrue",
-            "Link": "/pages/projects/2dplat.html"
-        },
-        {
-            "Title": "Adventure Story: A 2D RPG with Turn Based Combat",
-            "Link": "/pages/projects/adventurestory.html"
         },
         {
             "Title": "Graphsys: A TCP Server-Client Based Graphing Program",
@@ -24,6 +12,18 @@
         {
             "Title": "Reversi: A 2-Player Board Game, also known as Orthelo",
             "Link": "/pages/projects/reversi.html"
+        },
+        {
+            "Title": "Telium: Alien Hide and Seek",
+            "Link": "/pages/projects/telium.html"
+        },
+        {
+            "Title": "2D Platformer: A basic 2D Side-Scrolling Adventrue",
+            "Link": "/pages/projects/2dplat.html"
+        },
+        {
+            "Title": "Adventure Story: A 2D RPG with Turn Based Combat",
+            "Link": "/pages/projects/adventurestory.html"
         },
         {
             "Title": "Scoreboard System: A Web-based portal that tracks scores",
