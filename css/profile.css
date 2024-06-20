@@ -25,9 +25,8 @@ aside p
     padding: 15px;
 }
 
-aside ul
+aside
 {
-    list-style: none;
     padding: 0px;
 }
 
@@ -57,6 +56,11 @@ h3
 p
 {
     color: rgb(241, 241, 241);
+}
+
+ul
+{
+    list-style: none;
 }
 
 a
@@ -96,7 +100,8 @@ a
 
 .collapsable::after
 {
-    content: '\02795';
+    content: '\00ff0b';
+    font-weight: bold;
     color: white;
     float: right;
 }
@@ -113,7 +118,7 @@ a
 
 .active::after
 {
-    content: "\02796";
+    content: "\0ff0d";
 }
 
 .dropdown-content
