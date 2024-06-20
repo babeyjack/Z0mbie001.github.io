@@ -10,6 +10,7 @@
         <meta name="viewport" content="width-device-width, initial-scale=1">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"> 
 		<link rel="shortcut icon" type="image/png" href="/favicon.png">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<title>Babey Mountaineering</title> 
     </head>
     <body>
@@ -18,7 +19,7 @@
                 <a href="#" class="nav-logo">Babey Mountaineering</a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About Me</a>
+                        <a href="#" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Services</a>
@@ -38,19 +39,32 @@
             </nav>
         </header>
         <div id="profile-body">
-            <div id="photo-slideshow">
-                <img src="/favicon.png" alt="Tempoary Image"/>
+            <div id="photo-slideshow" class="w3-content w3-display-container">
+                <!--Add Images Here (Duplicate the outer div)-->
+                <div class="w3-display-container frontSlides w3-animate-opacity">
+                    <img class="" style="width:100%;" src="/img/climbing/StanageRock-01.jpg" alt="Stanage Edge"/>
+                    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">Stanage Edge, Darbyshire</div>
+                </div>
+                <div class="w3-display-container frontSlides w3-animate-opacity">
+                    <img class=""" style="width:100%;" src="/img/climbing/Pub-01.jpg" alt="The Pub"/>
+                    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">The Pub</div>
+                </div>                
+                <div class="w3-display-container frontSlides w3-animate-opacity">
+                    <img class="" style="width:100%;" src="/img/climbing/Trad-01.jpg" alt="A Climber Trad Climbing"/>
+                    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">Traditional Climbing</div>
+                </div>
+                <!--Above Here-->
+                <div class="w3-center w3-display-middle" style="width:100%;">
+                <div class="w3-left pointer" onclick="plusDivs(-1)" style="font-size: 2.5rem; color: rgb(255, 255, 255)">&#10094</div>
+                <div class="w3-right pointer" onclick="plusDivs(1)" style="font-size: 2.5rem; color: rgb(255, 255, 255)">&#10095</div>
+                </div>
+                <div class="w3-center w3-display-bottommiddle" style="width:100%; min-height:50px;">
+                    <!--Dots along the bottom-->
+                    <div class="w3-badge demo w3-border w3-transparent w3-hover-white pointer" onclick="currentDiv(1)" style="min-height:30px; min-width:30px"></div>
+                    <div class="w3-badge demo w3-border w3-transparent w3-hover-white pointer" onclick="currentDiv(2)" style="min-height:30px; min-width:30px"></div>
+                    <div class="w3-badge demo w3-border w3-transparent w3-hover-white pointer" onclick="currentDiv(3)" style="min-height:30px; min-width:30px;"></div>
+                </div>
             </div>
-            <!--<aside>
-                <h2>Details</h2>
-                <ul>
-                    <li><p>Project Updated: </p></li>
-                    <li><p>Platforms: </p></li>
-                    <li><p>Game Engine:  </p></li>
-                    <li><p>Programming Lanuage(s): </p></li>
-                    <li><p>Current Version: </p></li>
-                </ul>
-            </aside>-->
             <div id="profile-main">
                 <h2>What do we do?</h2>
 
@@ -60,5 +74,42 @@
                 It was most recently updated on the 31st May 2024</p>
             </footer>
         </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            var carouselInterval;
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("frontSlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-white", "");
+                }
+                x[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " w3-white";
+                //Reset the interval
+                clearInterval(carouselInterval);
+                carouselInterval = setInterval(carousel, 12000);
+            }
+
+            function carousel() {
+                showDivs(++slideIndex);
+            }
+        </script>
     </body>
 </html>

@@ -8,6 +8,11 @@ header
     border-bottom: 1px solid whitesmoke;
 }
 
+.pointer
+{
+    cursor: pointer;
+}
+
 .navbar
 {
     display: flex;
@@ -63,11 +68,17 @@ header
     color: rgb(254, 0, 57);
 }
 
+#photo-slideshow
+{
+    grid-row: 1;
+    grid-column: span 2;
+}
+
 #profile-body
 {
     display: grid;
     grid-template-columns: 1.5fr 4fr;
-    grid-template-rows: 4fr 1fr;
+    grid-template-rows: 4fr 4fr 1fr;
     gap: 10px;
 }
 
@@ -93,7 +104,7 @@ aside
 
 footer
 {
-    grid-row: 2;
+    grid-row: 3;
     grid-column: span 2;
 }
 
@@ -132,7 +143,8 @@ a
 
 #profile-main
 {
-    grid-column: 2;
+    grid-column: span 2;
+    grid-row: 2;
     margin: 10px;
     padding: 10px;
     text-align: center;
