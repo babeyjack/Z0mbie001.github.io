@@ -32,6 +32,12 @@
         {
             "Title": "Finance Planner: An Excel Spreadsheet to help track budgets and expenses",
             "Link": "/pages/projects/financeplan.html"
+        },
+        {
+            "Title": "Real-Time Strategy Game: A 3D RTS with resource management and troop movement",
+            "Link": "/pages/projects/rts.html"
         }
-    ]
+    ],
+    "Archive":
+    []
 }
