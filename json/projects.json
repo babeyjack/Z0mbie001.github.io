@@ -36,8 +36,18 @@
         {
             "Title": "Real-Time Strategy Game: A 3D RTS with resource management and troop movement",
             "Link": "/pages/projects/rts.html"
+        },
+        {
+            "Title": "Printf: An assembly langauge version of the C Standard Libaray Function 'printf'",
+            "Link": "/pages/projects/printf.html"
+        },
+        {
+            "Title": "Personal Website: A website to display my CV and list my projects (Hint: It's what you're on right now)",
+            "Link": "/pages/projects/personalwebsite.html"
         }
     ],
     "Archive":
-    []
+    [
+        
+    ]
 }
