@@ -71,18 +71,21 @@ function refreshExperiences()
             var newDiv = document.createElement("div");
             newDiv.className = "dropdown-content";
 
-            var newHeader = document.createElement("h3");
-            newHeader.innerText = data.Experience[i].Role
-
-            var newList = document.createElement("ul");
-            for(let j = 0; j < data.Experience[i].Details.length; j++)
+            for(let j = 0; j < data.Experience[i].Roles.length; j++)
             {
-                var newListItem = document.createElement("li");
-                var newPara = document.createElement("p");
-                newPara.innerText = data.Experience[i].Details[j];
+                var newHeader = document.createElement("h3");
+                newHeader.innerText = data.Experience[i].Roles[j].RoleTitle
 
-                newListItem.appendChild(newPara);
-                newList.appendChild(newListItem);
+                var newList = document.createElement("ul");
+                for(let k = 0; k < data.Experience[i].Roles[j].Details.length; k++)
+                {
+                    var newListItem = document.createElement("li");
+                    var newPara = document.createElement("p");
+                    newPara.innerText = data.Experience[i].Roles[j].Details[k];
+
+                    newListItem.appendChild(newPara);
+                    newList.appendChild(newListItem);
+                }
             }
             newDiv.appendChild(newHeader);
             newDiv.appendChild(newList);

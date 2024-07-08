@@ -107,93 +107,154 @@
     [
         {
             "Title": "Sound Stage Systems (2021)",
-            "Role": "Sound Engineer",
-            "Details":
+            "Roles":
             [
-                "AV Engineering",
-                "Health & Safety"
+                {
+                    "RoleTitle": "Sound Engineer",
+                    "Details":
+                    [
+                        "Live Audio Mixing",
+                        "Soundcraft Si Expression 3",
+                        "Allen & Heath QU-32",
+                        "Allen & Heath QU-SB",
+                        "Parametric Equalisation",
+                        "Compression",
+                        "Health & Safety",
+                        "Team Work",
+                        "Electrical Safety",
+                        "Knowledge of Saftey Systems and Procedures"
+                    ]
+                }
             ]
         },
         {
             "Title": "ROARR! Dinosaur Adventure (September 2021 - June 2022)",
-            "Role": "Seasonal Crew Member - Food & Beverages",
-            "Details":
+            "Roles":
             [
-                "Customer Service",
-                "Communication Skills",
-                "Team Work",
-                "Cash Handling",
-                "Health & Safety",
-                "Hygiene & Cleanliness",
-                "Organisation",
-                "Accuracy, Quality & Speed of Service",
-                "Product Knowledge and Up-selling"
+                {
+                    "RoleTitle": "Seasonal Crew Member - Food & Beverages",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Communication Skills",
+                        "Team Work",
+                        "Cash Handling",
+                        "Health & Safety",
+                        "Hygiene & Cleanliness",
+                        "Organisation",
+                        "Accuracy, Quality & Speed of Service",
+                        "Product Knowledge and Up-selling",
+                        "Electrical Safety"
+                    ]
+                }
             ]
         },
         {
             "Title": "Go Ape (June 2022 - Onwards)",
-            "Role": "Outdoor Activity Instructor",
-            "Details":
+            "Roles":
             [
-                "High-ropes",
-                "Customer Service",
-                "Team Work",
-                "Health & Safety",
-                "Working Under Pressure",
-                "Organisation",
-                "Communication Skills",
-                "Accuracy & Precision",
-                "Product Knowledge and Up-selling",
-                "Knowledge of Saftey Systems and Procedures",
-                "Problem Solving"
+                {
+                    "RoleTitle": "Outdoor Activity Instructor",
+                    "Details":
+                    [
+                        "High-ropes",
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety",
+                        "Working Under Pressure",
+                        "Organisation",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Product Knowledge and Up-selling",
+                        "Knowledge of Saftey Systems and Procedures",
+                        "Problem Solving",
+                        "Electrical Safety"
+                    ]
+                }
             ]
         },
         {
             "Title": "Boost Climbing (September 2017 - Onwards)",
-            "Role": "Volunteer Climbing Instructor",
-            "Details":
+            "Roles": 
             [
-                "Customer Service",
-                "Team Work",
-                "Health & Safety",
-                "Organisation",
-                "Problem Solving",
-                "Working Under Pressure",
-                "Communication Skills",
-                "Accuracy & Precision",
-                "Knowledge of Saftey Systems and Procedures"
+                {
+                    "RoleTitle": "Volunteer Climbing Instructor",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety",
+                        "Organisation",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Knowledge of Saftey Systems and Procedures"
+                    ]
+                }
             ]
         },
         {
             "Title": "University of Nottingham (September 2023 - Onwards)",
-            "Role": "Casual Climbing Instructor",
-            "Details":
+            "Roles":
             [
-                "Customer Service",
-                "Team Work",
-                "Health & Safety",
-                "Organisation",
-                "Problem Solving",
-                "Working Under Pressure",
-                "Communication Skills",
-                "Accuracy & Precision",
-                "Knowledge of Saftey Systems and Procedures"
+                {
+                    "RoleTitle": "Casual Climbing Instructor",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety",
+                        "Organisation",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Knowledge of Saftey Systems and Procedures"
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "University of Nottingham Climbing Club (September 2023 - Onwards)",
+            "Roles":
+            [
+                {
+                    "RoleTitle": "Training Secretary (September 2024 - September 2025)",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety",
+                        "Organisation",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Knowledge of Saftey Systems and Procedures"
+                    ]
+                }
             ]
         },
         {
             "Title": "Nottingham Climbing Centre (September 2023 - Onwards)",
-            "Role": "Climbing Instructor",
-            "Details":
+            "Roles":
             [
-                "Customer Service",
-                "Team Work",
-                "Health & Safety",
-                "Organisation",
-                "Problem Solving",
-                "Working Under Pressure",
-                "Communication Skills",
-                "Accuracy & Precision",
-                "Knowledge of Saftey Systems and Procedures"
+                {
+                    "RoleTitle": "Climbing Instructor",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety",
+                        "Organisation",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Knowledge of Saftey Systems and Procedures"
+                    ]
+                }
             ]
         }
     ],
