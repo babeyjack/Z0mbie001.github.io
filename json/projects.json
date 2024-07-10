@@ -2,6 +2,8 @@
     "Projects":
     [
         {
+            "ID": "babyypos",
+            "Name": "BabyyPOS",
             "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
             "Link": "/pages/projects/babyypos.html",
             "Details":

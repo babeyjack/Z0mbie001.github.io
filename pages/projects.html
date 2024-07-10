@@ -13,25 +13,28 @@
     </head>
     <body>
         <header>
-            <h1>Projects</h1>
+            <h1 id="project-title">Projects</h1>
         </header>
         <div id="profile-body">
-            <!--<aside>
-                <h2>Contact Information</h2>
-                <ul>
-                    <<li><p>Email: <a href="mailto:jackbabey@gmail.com">jackbabey@gmail.com</a></p></li>
-                    <li><p>Currently based in Nottingham, UK</p></li>
+            <aside id="project-aside" style="display: none;">
+                <h2>Details</h2>
+                <ul id="project-details">
                 </ul>
-            </aside>-->
+            </aside>
+            <span id="project-display" style="display: none;">
+                <h2 id="project-desc">Project Description</h2>
+            </span>
             <div id="profile-main" style="grid-column: span 2;">
-                <p>Welcome to my projects page, this has a list of all of the projects that I have created and wish to show off.</p>
-                <!--<p>If you would like to return to the profile page, <a href="./profile.html">click here</a>.</p>-->
-                <h2>GitHub Stats</h2>
-                <img src="https://github-readme-stats.vercel.app/api?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" alt="Jack Babey's GitHub stats"/>
-                <img src="https://github-readme-streak-stats.herokuapp.com/?user=Z0mbie001&theme=midnight-purple&hide_border=true" alt="Jack Babey's GitHub Stats"/>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact" alt="Jack Babey's GitHub Stats"/>
-                <h2>Project List</h2>
-                <div class="list-holder" id="projects"></div>
+                <span id="project-list">
+                    <p>Welcome to my projects page, this has a list of all of the projects that I have created and wish to show off.</p>
+                    <!--<p>If you would like to return to the profile page, <a href="./profile.html">click here</a>.</p>-->
+                    <h2>GitHub Stats</h2>
+                    <img src="https://github-readme-stats.vercel.app/api?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" alt="Jack Babey's GitHub stats"/>
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Z0mbie001&theme=midnight-purple&hide_border=true" alt="Jack Babey's GitHub Stats"/>
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact" alt="Jack Babey's GitHub Stats"/>
+                    <h2>Project List</h2>
+                    <div class="list-holder" id="projects"></div>
+                </span>
             </div>  
         </div>
 
