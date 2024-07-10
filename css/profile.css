@@ -24,11 +24,16 @@ aside p
 {
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
-aside
+aside img
 {
-    padding: 0px;
+    width: calc(100% - 40px);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 footer
@@ -81,6 +86,11 @@ a
 #profile-main h2
 {
     margin-bottom: 0px;
+}
+
+#project-desc
+{
+    margin: 0px;
 }
 
 .collapsable
