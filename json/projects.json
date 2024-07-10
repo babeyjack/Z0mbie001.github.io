@@ -3,7 +3,33 @@
     [
         {
             "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
-            "Link": "/pages/projects/babyypos.html"
+            "Link": "/pages/projects/babyypos.html",
+            "Details":
+            {
+                "Updated": "4 March 2024",
+                "Platforms": "Windows",
+                "GameEngine": "Unity Engine",
+                "ProgLang": 
+                [
+                    "C#",
+                    "SQL"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description":
+            [
+                "This project was my A-Level Computer Science, Non-exam Assessment. We were told we had to identify a problem, and work out a way to fix it using software. At the time, the point-of-sale system that my job used wasn't very good. So I chose this as my issue and set about researching different systems that were currently on the market.",
+                "I chose 4 different point-of-sale systems to research, unforntunatly this didn't include my work's system as it was custom built for them. The systems I researched were: Tillpoint, Lightspeed, EPoSnow and SumUp. I created a list of positives and negatives about each system, as well as a list of features that I should implement in my system based off this research.",
+                "Next, I identified the stakeholders for my system. Making sure I was able to communicate easily with them for the duration of the project. This is important as I was working using the Agile Methodology, which requires constant stakeholder involement during development. I sat down with each of my 3 stakeholders and discussed what they wanted out of the system. Using these conversations I created a list of features that had to be implemented in the system for it to be classed as a success, and some optional features that should be added if possible. I was also able to identify possible hardware and software limitations that the stakeholders might have.",
+                "After this, I created a rough design of the system, this included UI layouts and flow diagrams of key features. I also created prototypes for some of the classes I would be implementing, this included pseudocode, class diagrams and variable justifications. In this design stage, I also outlined some Milestones and the tests that should be carried out at these points. At each milestone I showed each of the stakeholders the system to get feedback, this would then inform the next development cycle. The Acceptance or Post-Development testing was also defined at this stage, however, some more were added during the development.",
+                "During the development, I heavily documented each part of the process. This is the single biggest section of the doucmentation, with just under 200 pages. This is more than all the other sections added together. However, this did include all of the milestone tests. If I were to redo this project, I would document my code slightly less, as I feel this led to a much longer development time.",
+                "Finally, after I was happy with the system, I proceded to complete the final evaluation. This included a final sit down with each of my stakeholders, running the acceptance tests and stating any limitations of the system."
+
+            ],
+            "Screenshots":
+            [
+
+            ]
         },
         {
             "Title": "Graphsys: A TCP Server-Client Based Graphing Program",
@@ -34,7 +60,7 @@
             "Link": "/pages/projects/printf.html"
         },
         {
-            "Title": "Personal Website: A website to display my CV and list my projects (Hint: It's what you're on right now)",
+            "Title": "Personal Website: A website to display my CV and list my projects",
             "Link": "/pages/projects/personalwebsite.html"
         },
         {
