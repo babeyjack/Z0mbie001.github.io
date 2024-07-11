@@ -5,7 +5,7 @@
             "ID": "babyypos",
             "Name": "BabyyPOS",
             "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
-            "Link": "/index.html",
+            "Link": "https://github.com/Z0mbie001/BabyyPos",
             "PageLink": "?proj=babyypos",
             "Details":
             {
@@ -22,7 +22,7 @@
             "Description":
             [
                 "This project was my A-Level Computer Science, Non-exam Assessment. We were told we had to identify a problem, and work out a way to fix it using software. At the time, the point-of-sale system that my job used wasn't very good. So I chose this as my issue and set about researching different systems that were currently on the market.",
-                "I chose 4 different point-of-sale systems to research, unforntunatly this didn't include my work's system as it was custom built for them. The systems I researched were: Tillpoint, Lightspeed, EPoSnow and SumUp. I created a list of positives and negatives about each system, as well as a list of features that I should implement in my system based off this research.",
+                "I chose 4 different point-of-sale systems to research, unforntunatly this didn't include my work's system as it was custom built for them. The systems I researched were: I researched were: <a href='https://www.tillpoint.co.uk/'>Tillpoint</a>, <a href='https://www.lightspeedhq.co.uk/'>Lightspeed</a>, <a href='https://www.eposnow.com/uk/'>EPoSnow</a> and <a href='https://www.sumup.com/en-gb/'>SumUp</a>. I created a list of positives and negatives about each system, as well as a list of features that I should implement in my system based off this research.",
                 "Next, I identified the stakeholders for my system. Making sure I was able to communicate easily with them for the duration of the project. This is important as I was working using the Agile Methodology, which requires constant stakeholder involement during development. I sat down with each of my 3 stakeholders and discussed what they wanted out of the system. Using these conversations I created a list of features that had to be implemented in the system for it to be classed as a success, and some optional features that should be added if possible. I was also able to identify possible hardware and software limitations that the stakeholders might have.",
                 "After this, I created a rough design of the system, this included UI layouts and flow diagrams of key features. I also created prototypes for some of the classes I would be implementing, this included pseudocode, class diagrams and variable justifications. In this design stage, I also outlined some Milestones and the tests that should be carried out at these points. At each milestone I showed each of the stakeholders the system to get feedback, this would then inform the next development cycle. The Acceptance or Post-Development testing was also defined at this stage, however, some more were added during the development.",
                 "During the development, I heavily documented each part of the process. This is the single biggest section of the doucmentation, with just under 200 pages. This is more than all the other sections added together. However, this did include all of the milestone tests. If I were to redo this project, I would document my code slightly less, as I feel this led to a much longer development time.",
@@ -35,36 +35,236 @@
             ]
         },
         {
+            "ID": "graphsys",
+            "Name": "Graphsys",
             "Title": "Graphsys: A TCP Server-Client Based Graphing Program",
-            "Link": "/pages/projects/graphsys.html"
+            "Link": "",
+            "PageLink": "?proj=graphsys",
+            "Details":
+            {
+                "Updated": "22 December 2024",
+                "Platforms": "Windows",
+                "GameEngine": "",
+                "ProgLang":
+                [
+                    "C"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description":
+            [
+                "This project was given to me at then end of first semester, year one as a combination between mutliple modules. It was a coursework given by 2 different lecturers for 3 different modules.",
+                "Using the C programming language and any built in libraries, I created a TCP server. This server allows you to create logical graphs and manipulate them. The system handles one client at a time, but the graph is retained for multiple successive clients."  
+            ],
+            "Screenshots":
+            [
+
+            ]
         },
         {
+            "ID": "reversi",
+            "Name": "Reversi",
             "Title": "Reversi: A 2-Player Board Game, also known as Orthelo",
-            "Link": "/pages/projects/reversi.html"
+            "Link": "",
+            "PageLink": "?proj=reversi",
+            "Details": 
+            {
+                "Updated": "",
+                "Platforms": "Windows",
+                "GameEngine": "",
+                "ProgLang":
+                [
+                    "Java"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description":
+            [
+                "This project was given to me at University, in year one. It was a coursework given for my Java module.",
+                "Using the Java programming language, I created a 2 person, SwingGUI based game. It included creating a 'Greedy AI' to make the move that takes the most pieces.",
+                "I was given 3 interfact scripts, and a few testing scripts to check functionality. These scripts also ensured that I adheard to the object oriented paradigm."
+            ],
+            "Screenshots": 
+            [
+
+            ]
         },
         {
+            "ID": "telium",
+            "Name": "Telium",
             "Title": "Telium: Alien Hide and Seek",
-            "Link": "/pages/projects/telium.html"
+            "Link" : "https://github.com/Z0mbie001/Telium",
+            "PageLink": "?proj=telium",
+            "Details":
+            {
+                "Updated": "22 Febuary 2023",
+                "Platforms": "Windows",
+                "GameEngine": "Unity Engine",
+                "ProgLang": 
+                [
+                    "C#"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description":
+            [
+                "This project was given to me in the first year of Sixth Form. It was originally a brief created by \"Craig 'n' Dave\" as a mock GCSE Non-exam Assessment. This can be found <a href='https://craigndave.org/product/text-based-adventure-game-telium/'>here",
+                "This project was originally designed to be a Python, Text-Based adventure game. However, I wanted to challenge myself and using my knowledge of Unity Engine, I decided to adapt the project to use this.",
+                "To this end, I adjusted the brief to use a Graphical User Interface, luckily, Unity Engine has a good suite of User Interface objects built into it.",
+                "Using this I was able to build a system, using the methods of Object Oriented Programming as best as I understood them at the time."
+            ],
+            "Screenshots": 
+            [
+
+            ]
         },
         {
+            "ID": "2dplatformer",
+            "Name": "2D Platformer",
             "Title": "2D Platformer: A basic 2D Side-Scrolling Adventrue",
-            "Link": "/pages/projects/2dplat.html"
+            "Link": "https://github.com/Z0mbie001/2DPlatformer",
+            "PageLink": "?proj=2dplatformer",
+            "Details":
+            {
+                "Updated": "21 May 2023",
+                "Platforms": "Windows",
+                "GameEngine": "Unity Engine",
+                "ProgLang": 
+                [
+                    "C#"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description": 
+            [
+                "This project was created off the back of a Udemy Course I completed. It was the first course I completed to teach me about how to program using Unity Engine and C#.",
+                "This game sparked my interest in game development. It taught me the basics of Object Oriented Programming, Unity Engine, Project File Management, Co-routines and UI."
+            ],
+            "Screenshots": 
+            [
+
+            ]
         },
         {
+            "ID": "adventurestory",
+            "Name": "Adventure Story",
             "Title": "Adventure Story: A 2D RPG with Turn Based Combat",
-            "Link": "/pages/projects/adventurestory.html"
+            "Link": "https://github.com/Z0mbie001/AdventureStory",
+            "PageLink": "?proj=adventruestory",
+            "Details": 
+            {
+                "Updated": "22 May 2023",
+                "Platforms": "Windows",
+                "GameEngine": "Unity Engine",
+                "ProgLang": 
+                [
+                    "C#"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description": 
+            [
+                "This project was created off the back of a Udemy Course I completed. It was the second game I had fully completed, and it showed me how to make a different style of game.",
+                "Completing this project helped show me how to create a 2D Classic-style RPG, using tilemaps.",
+                "I implemented turn-based combat, inventory, and leveling systems, and linked them all together."
+            ],
+            "Screenshots": 
+            [
+
+            ]
         },
         {
+            "ID": "scoreboardsys",
+            "Name": "Scoreboard System",
             "Title": "Scoreboard System: A Web-based portal that tracks scores",
-            "Link": "/pages/projects/scoreboard.html"
+            "Link": "https://github.com/Z0mbie001/Point-Score-Website",
+            "PageLink": "?proj=scoreboardsys",
+            "Details": 
+            {
+                "Updated": "28 May 2024",
+                "Platforms": "Universal",
+                "GameEngine": "",
+                "ProgLang":
+                [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description": 
+            [
+                "I created this project as a fun example of what I could do using web development. I used Supabase to create a backend database, which could be accessed using the REST API framework. I then programmed a front-end system to interact and manipulate the database.",
+                "The idea for this project stemmed from a joke around my friendship group at University, about creating a scoreboard. It would mark our achievements, and points could be deducted based on various factors. Having just completed our Databases & Interfaces coursework, I was confident that I could create a system that would handle this.",
+                "The users have 2 websites which they can interact with, one shows the leaderboard, featuring nicknames and points. The second page allows them to log points gained based off of various cateogries with fixed point allowences.",
+                "I also created an administator portal, as it would make managing the system easier, this includes being able to add/remove cateogries, add/remove players as well as adding/removing specific achievements. This made it so that you never have to interact with the database directly. This page also features a fixed login, using a hashing algorithm, and cookies, to ensure you remain logged in when accessing the different functions.",
+                "Creating this system was a great learning experience, and showed me the power of what web development can achieve.",
+                "As Supabase is a free service, it only lasts 7 days without a request before closing the API link. To ensure that the website remains operational, I have setup cron-job.org to ping the database once a day."
+            ],
+            "Screenshots": 
+            [
+                
+            ]
         },
         {
+            "ID": "printf",
+            "Name": "Printf",
             "Title": "Printf: An assembly langauge version of the C Standard Libaray Function 'printf'",
-            "Link": "/pages/projects/printf.html"
+            "Link": "",
+            "PageLink": "?proj=printf",
+            "Details": 
+            {
+                "Updated": "13 December 2023",
+                "Platforms": "ARM",
+                "GameEngine": "",
+                "ProgLang": 
+                [
+                    "ARM Assembly"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description": 
+            [
+                "This project was given to me at University, in year one. It was a coursework given for my Arm Assembly module.",
+                "We were told to research and re-create the C Standard Libaray Function 'printf'. This function takes a string, plus an unknown number of parameters of unknown types. The string contains tokens which should tell the program how each parameter should be interpreted and displayed. It produces an output to the I/O stream.",
+                "My implemnetation of this includes all of the basic token types such as \"%u\" for unsigned integers, \"%x\" for hexadecimal integers and \"%%\" for a single percent sign."
+            ],
+            "Screenshots": 
+            [
+
+            ]
         },
         {
+            "ID": "personalwebsite",
+            "Name": "Personal Website",
             "Title": "Personal Website: A website to display my CV and list my projects",
-            "Link": "/pages/projects/personalwebsite.html"
+            "Link": "https://github.com/Z0mbie001/z0mbie001.github.io",
+            "PageLink": "?proj=personalwebsite",
+            "Details": 
+            {
+                "Updated": "11 July 2024",
+                "Platforms": "Universal",
+                "GameEngine": "",
+                "ProgLang": 
+                [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description": 
+            [
+                "I wanted to create a website that I could send to people to show what I could do and all my achievements.",
+                "So I set to work designing the website you are using currently. It displays all of my qualifications, achievements, hobbies and projects using a Static webpage, hosted using GitHub Pages. While I understand this cannot fully describe me as a person, I hope that this helps to show an objective opinion on what I can do.",
+                "I implemented a JSON system for generating both the initial profile (<a href='/pages/profile.html'>here</a>) and the projects page (<a href='/pages/projects.html'>here</a>) This allows me to easily change details shown on the site using an external program (WIP), and reduces the chances of me breaking the whole website.",
+                "I'm currently working on using JSON files to generate the project pages, making it easier to update and change the project details and description.",
+                "Please continue exploring my website and I hope you enjoy seeing everything I'm working on and have completed."
+            ],
+            "Screenshots": 
+            [
+
+            ]
         },
         {
             "Title": "Finance Planner: An Excel Spreadsheet to help track budgets and expenses",

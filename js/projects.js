@@ -150,6 +150,12 @@ async function loadDetailsDesc(project)
         projDisplay.appendChild(p1);
         projDisplay.appendChild(p2);
     }
+    else
+    {
+        let p1 = document.createElement("p");
+        p1.innerHTML = 'Due to this project being currently used for university courseworks, I cannot create a public repository with it in. However, it can be made available upon request.';
+        projDisplay.appendChild(p1);
+    }
 }
 
 // Screenshots
