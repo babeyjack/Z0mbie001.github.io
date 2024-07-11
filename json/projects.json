@@ -5,7 +5,8 @@
             "ID": "babyypos",
             "Name": "BabyyPOS",
             "Title": "BabyyPOS: A Basic Server-Client Point-of-Sale system",
-            "Link": "/pages/projects/babyypos.html",
+            "Link": "/index.html",
+            "PageLink": "?proj=babyypos",
             "Details":
             {
                 "Updated": "4 March 2024",

@@ -177,6 +177,20 @@ a
     justify-content: center;
 }
 
+#screenshot-holder
+{
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+#screenshot-holder img
+{
+    object-fit: scale-down;
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin: 5px;
+}
+
 @media only screen and (max-width: 500px)
 {
     footer {grid-column: 1;}

@@ -14,7 +14,7 @@ async function refreshProjects()
             newButton.type = "button";
             newButton.className = "collapsable";
             newButton.innerText = data.Projects[i].Title;
-            newButton.onclick = () => hrefFunction(data.Projects[i].Link);
+            newButton.onclick = () => hrefFunction(data.Projects[i].PageLink);
 
             var newDiv = document.createElement("div");
             newDiv.className = "dropdown-content";
@@ -67,7 +67,8 @@ async function loadProjectDetails()
 
                 // Setup Details
                 loadDetailsSidebar(project);
-
+                loadDetailsDesc(project);
+                loadScreenshots(project);
                 return;
             }
         }
@@ -99,12 +100,79 @@ async function loadDetailsSidebar(project)
     }
 
     // Programming Languages
-    
+    let programmingLang = document.createElement("li");
+    let progLangString = ""
+    if(project.Details.ProgLang.length > 1)
+    {
+        progLangString = "<p>Programming Languages: ";
+    }
+    else
+    {
+        progLangString = "<p>Programming Language: ";
+    }
+    for(let i = 0; i < project.Details.ProgLang.length; i++)
+    {
+        if(i + 1 == project.Details.ProgLang.length)
+        {
+            progLangString += project.Details.ProgLang[i] + "</p>";
+        }
+        else
+        {
+            progLangString += project.Details.ProgLang[i] + ", ";
+        }
+    }
+    programmingLang.innerHTML = progLangString;
+    details.appendChild(programmingLang);
 
     // Version
     let version = document.createElement("li");
     version.innerHTML = "<p>Version: " + project.Details.Version + "</p>";
     details.appendChild(version);
+}
+
+// Details Description
+async function loadDetailsDesc(project)
+{
+    let projDisplay = document.getElementById("project-display");
+    for(let i = 0; i < project.Description.length; i++)
+    {
+        let paragraph = document.createElement("p");
+        paragraph.innerHTML = project.Description[i];
+        projDisplay.appendChild(paragraph);
+    }
+    
+    if(project.Link != "")
+    {
+        let p1 = document.createElement("p");
+        let p2 = document.createElement("p");
+        p1.innerHTML = 'If you would like to have a look at the files for this project, please <a href="' + project.Link + '">click here</a>.';
+        p2.innerHTML = 'If you notice any bugs or improvements that can be made, please raise a GitHub Issue on the project page.';
+        projDisplay.appendChild(p1);
+        projDisplay.appendChild(p2);
+    }
+}
+
+// Screenshots
+async function loadScreenshots(project)
+{
+    if(project.Screenshots.length <= 0)
+    {
+        return;
+    }
+
+    let projDisplay = document.getElementById("project-display");
+    let title = document.createElement("h2");
+    title.innerHTML = "Screenshots";
+    projDisplay.appendChild(title);
+    let holder = document.createElement("span");
+    holder.id = "screenshot-holder";
+    for(let i = 0; i < project.Screenshots.length; i++)
+    {
+        let screenshot = document.createElement("img");
+        screenshot.src = project.Screenshots[i];
+        holder.appendChild(screenshot);
+    }
+    projDisplay.appendChild(holder);
 }
 
 // Href Function
@@ -120,11 +188,14 @@ function hideProjectList(value)
     {
         document.getElementById("profile-main").style.display = "none";
         document.getElementById("project-display").style.display = "block";
+        document.getElementById("project-display").style.gridRow = "span 2";
         document.getElementById("project-aside").style.display = "block";
+        document.getElementById("project-aside").style.gridRow = "span 2";
     }
     else
     {
         document.getElementById("profile-main").style.display = "block";
+        document.getElementById("profile-main").style.gridRow = "span 2";
         document.getElementById("project-display").style.display = "none";
         document.getElementById("project-aside").style.display = "none";
     }
