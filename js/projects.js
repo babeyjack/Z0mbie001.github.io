@@ -141,7 +141,19 @@ async function loadDetailsDesc(project)
         projDisplay.appendChild(paragraph);
     }
     
-    if(project.Link != "")
+    if(project.Link == "¬uni")
+    {
+        let p1 = document.createElement("p");
+        p1.innerHTML = 'Due to this project being currently used for university courseworks, I cannot create a public repository with it in. However, it can be made available upon request.';
+        projDisplay.appendChild(p1);
+    }
+    else if(project.Link == "¬early")
+    {
+        let p1 = document.createElement("p");
+        p1.innerHTML = "As this project is still in the early stages of development, I'm not going to link the repository just yet.";
+        projDisplay.appendChild(p1);
+    }
+    else
     {
         let p1 = document.createElement("p");
         let p2 = document.createElement("p");
@@ -149,12 +161,6 @@ async function loadDetailsDesc(project)
         p2.innerHTML = 'If you notice any bugs or improvements that can be made, please raise a GitHub Issue on the project page.';
         projDisplay.appendChild(p1);
         projDisplay.appendChild(p2);
-    }
-    else
-    {
-        let p1 = document.createElement("p");
-        p1.innerHTML = 'Due to this project being currently used for university courseworks, I cannot create a public repository with it in. However, it can be made available upon request.';
-        projDisplay.appendChild(p1);
     }
 }
 
