@@ -38,7 +38,7 @@
             "ID": "graphsys",
             "Name": "Graphsys",
             "Title": "Graphsys: A TCP Server-Client Based Graphing Program",
-            "Link": "",
+            "Link": "¬uni",
             "PageLink": "?proj=graphsys",
             "Details":
             {
@@ -65,7 +65,7 @@
             "ID": "reversi",
             "Name": "Reversi",
             "Title": "Reversi: A 2-Player Board Game, also known as Orthelo",
-            "Link": "",
+            "Link": "¬uni",
             "PageLink": "?proj=reversi",
             "Details": 
             {
@@ -210,7 +210,7 @@
             "ID": "printf",
             "Name": "Printf",
             "Title": "Printf: An assembly langauge version of the C Standard Libaray Function 'printf'",
-            "Link": "",
+            "Link": "¬uni",
             "PageLink": "?proj=printf",
             "Details": 
             {
@@ -267,12 +267,55 @@
             ]
         },
         {
+            "ID": "financeplanner",
+            "Name": "Finance Planner",
             "Title": "Finance Planner: An Excel Spreadsheet to help track budgets and expenses",
-            "Link": "/pages/projects/financeplan.html"
+            "Link": "https://github.com/Z0mbie001/Excel-Yearly-Budget/tree/v1.0.0",
+            "PageLink": "?proj=financeplanner",
+            "Details": 
+            {
+                "Updated": "3 July 2024",
+                "Platforms": "Microsoft Excel, Google Sheets",
+                "GameEngine": "",
+                "ProgLang":
+                [
+                    "Excel Formula Language"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description":
+            [
+                "This is a project I am creating to help me track my spending, and my budget. While at Unviersity I realised the importance of knowing what I was spending money on. This led me to research some financial trackers, the most popular ones for home use were made using Excel. However, I couldn't find one that I liked or had all of the features I needed. So I decided to make my own.",
+                "This project includes features for: Multiple Accounts, Budgeting, Transactions, Reports and Stats."
+            ],
+            "Screenshots":
+            [
+
+            ]
         },
         {
+            "ID": "rtsgame",
+            "Name": "Real-Time Strategy Game",
             "Title": "Real-Time Strategy Game: A 3D RTS with resource management and troop movement",
-            "Link": "/pages/projects/rts.html"
+            "Link": "¬early",
+            "PageLink": "?proj=rtsgame",
+            "Details":
+            {
+                "Updated": "20 June 2024",
+                "Platforms": "Windows",
+                "GameEngine": "Unity Engine",
+                "ProgLang": 
+                [
+                    "C#"
+                ],
+                "Version": "No Release Yet"
+            },
+            "Description": 
+            [
+                "This project is a Real-Time Strategy game. It invloves a complex resource managmenet system, with multiple building types. It is based off of the game Settlers IV, which is an older game, but still one of my favorites.",
+                "Creating this game is complex becuase of all the different parts that go into it. I am currently working on the resource collection and movement system. This uses C# events and IEnumerators to achieve multi-threading and increased performance. Using C# events allows all relevant classes to be notified when there is a change.",
+                "I used some pre-made assets, as my art and 3D modeling skills still need some work."
+            ]
         }
     ],
     "Archive":
