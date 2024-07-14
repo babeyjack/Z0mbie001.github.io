@@ -242,7 +242,7 @@
             "PageLink": "?proj=personalwebsite",
             "Details": 
             {
-                "Updated": "11 July 2024",
+                "Updated": "14 July 2024",
                 "Platforms": "Universal",
                 "GameEngine": "",
                 "ProgLang": 
@@ -251,7 +251,7 @@
                     "CSS",
                     "JavaScript"
                 ],
-                "Version": "v1.0.0"
+                "Version": "v1.1.0"
             },
             "Description": 
             [
