@@ -15,7 +15,7 @@ function refreshQualifications()
             var newButton = document.createElement("button");
             newButton.type = "button";
             newButton.className = "collapsable";
-            newButton.innerText = data.Qualifications[i].Title;
+            newButton.innerHTML = data.Qualifications[i].Title;
             newButton.addEventListener("click", function() {
                 this.classList.toggle("active");
                 var content = this.nextElementSibling;
@@ -34,7 +34,7 @@ function refreshQualifications()
             {
                 var newListItem = document.createElement("li");
                 var newPara = document.createElement("p");
-                newPara.innerText = data.Qualifications[i].Details[j];
+                newPara.innerHTML = data.Qualifications[i].Details[j];
 
                 newListItem.appendChild(newPara);
                 newList.appendChild(newListItem);
@@ -57,7 +57,7 @@ function refreshExperiences()
             var newButton = document.createElement("button");
             newButton.type = "button";
             newButton.className = "collapsable";
-            newButton.innerText = data.Experience[i].Title;
+            newButton.innerHTML = data.Experience[i].Title;
             newButton.addEventListener("click", function() {
                 this.classList.toggle("active");
                 var content = this.nextElementSibling;
@@ -74,14 +74,14 @@ function refreshExperiences()
             for(let j = 0; j < data.Experience[i].Roles.length; j++)
             {
                 var newHeader = document.createElement("h3");
-                newHeader.innerText = data.Experience[i].Roles[j].RoleTitle
+                newHeader.innerHTML = data.Experience[i].Roles[j].RoleTitle
 
                 var newList = document.createElement("ul");
                 for(let k = 0; k < data.Experience[i].Roles[j].Details.length; k++)
                 {
                     var newListItem = document.createElement("li");
                     var newPara = document.createElement("p");
-                    newPara.innerText = data.Experience[i].Roles[j].Details[k];
+                    newPara.innerHTML = data.Experience[i].Roles[j].Details[k];
 
                     newListItem.appendChild(newPara);
                     newList.appendChild(newListItem);
@@ -106,7 +106,7 @@ function refreshHobbies()
             var newButton = document.createElement("button");
             newButton.type = "button";
             newButton.className = "collapsable";
-            newButton.innerText = data.Hobbies[i].Title;
+            newButton.innerHTML = data.Hobbies[i].Title;
             newButton.addEventListener("click", function() {
                 this.classList.toggle("active");
                 var content = this.nextElementSibling;
@@ -125,7 +125,7 @@ function refreshHobbies()
             {
                 var newListItem = document.createElement("li");
                 var newPara = document.createElement("p");
-                newPara.innerText = data.Hobbies[i].Details[j];
+                newPara.innerHTML = data.Hobbies[i].Details[j];
                 
                 newListItem.appendChild(newPara);
                 newList.appendChild(newListItem);
