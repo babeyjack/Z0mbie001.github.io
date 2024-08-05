@@ -242,7 +242,7 @@
             "PageLink": "?proj=personalwebsite",
             "Details": 
             {
-                "Updated": "14 July 2024",
+                "Updated": "5 August 2024",
                 "Platforms": "Universal",
                 "GameEngine": "",
                 "ProgLang": 
@@ -258,7 +258,8 @@
                 "I wanted to create a website that I could send to people to show what I could do and all my achievements.",
                 "So I set to work designing the website you are using currently. It displays all of my qualifications, achievements, hobbies and projects using a Static webpage, hosted using GitHub Pages. While I understand this cannot fully describe me as a person, I hope that this helps to show an objective opinion on what I can do.",
                 "I implemented a JSON system for generating both the initial profile (<a href='/pages/profile.html'>here</a>) and the projects page (<a href='/pages/projects.html'>here</a>) This allows me to easily change details shown on the site using an external program (WIP), and reduces the chances of me breaking the whole website.",
-                "I'm currently working on using JSON files to generate the project pages, making it easier to update and change the project details and description.",
+                "I have also implements and JSON system that uses URL parameters to generate project pages. This will allow me in the future to modify project details and descriptions easier with an external program (WIP).",
+                "There is now also a more in-depth details page about my Undergraduate Degree, which contains specific module information. This can be found <a href='/pages/uonug.html'>here</a>.",
                 "Please continue exploring my website and I hope you enjoy seeing everything I'm working on and have completed."
             ],
             "Screenshots": 

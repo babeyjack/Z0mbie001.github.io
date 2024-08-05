@@ -24,7 +24,6 @@ aside p
 {
     padding-left: 15px;
     padding-right: 15px;
-    
 }
 
 aside img
@@ -73,6 +72,11 @@ ul
 a
 {
     color: rgb(192, 0, 0);
+}
+
+li
+{
+    color: rgb(241, 241, 241);
 }
 
 #profile-main
@@ -160,7 +164,10 @@ a
 
 .dropdown-content ul li
 {
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 10px;
 }
 
 .dropdown-content ul p
