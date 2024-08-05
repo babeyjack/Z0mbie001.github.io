@@ -6,8 +6,4 @@ Have a look around if you are interested. It is mainly designed to be a record o
 
 ## How to view
 
-To view the website, just head to [https://z0mbie001.github.io/](https://z0mbie001.github.io/).
-
-To view my profile, press the "My Computer" icon.
-
-The other icons all do something (apart form "Task Manager"), so feel free to have a click around.
+To view the website, just head to [https://z0mbie001.github.io/](https://z0mbie001.github.io/) and have a look around.
