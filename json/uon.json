@@ -1,0 +1,209 @@
+{
+    "YearOne":
+    [
+        {
+            "ModuleName": "Mathematics for Computer Scientists",
+            "ModuleCode": "COMP1001",
+            "Credits": 10,
+            "Score": "75%",
+            "Semester": 1,
+            "Convenors":
+            [
+                {
+                    "Name": "Dr Tim Muller",
+                    "Link": "http://www.tjcmuller.com/"
+                },
+                {
+                    "Name": "Dr Jason Atkin",
+                    "Link": "https://www.cs.nott.ac.uk/~pszja/"
+                }
+            ],
+            "Description":
+            [
+                "This module covered Propositional and Predicate Logic, Basic Proofs, Set Theory, Relations and Functions, Induction, Pigeon Hole Principle, Number Theory and Graph Theory. It gave us a basic understanding of how to use Logic, and how to apply it to a computational situation."
+            ]
+        },
+        {
+            "ModuleName": "Computer Science First Year Tutorial",
+            "ModuleCode": "COMP1002",
+            "Credits": 0,
+            "Score": "N/A",
+            "Semester": 0,
+            "Convenors":
+            [
+                {
+                    "Name": "Jeremie Clos",
+                    "Link": "https://jclos.ovh/"
+                },
+                {
+                    "Name": "Ian Knight",
+                    "Link": "/404.html"
+                }
+            ],
+            "Description": 
+            [
+                "This module was focused on building study skills and professional communication, along with other small topics to assist in our learning."
+            ]
+        },
+        {
+            "ModuleName": "Introduction to Software Engineering",
+            "ModuleCode": "COMP1003",
+            "Credits": 10,
+            "Score": "82%",
+            "Semester": 2,
+            "Convenors": 
+            [
+                {
+                    "Name": "Max Wilson",
+                    "Link": "https://www.cs.nott.ac.uk/~pszmw/"
+                }
+            ],
+            "Description":
+            [
+                "This module taught the basics of Software Design and Development, through the practical application of these skills. We would first cover topics in theory, and then, through 2 Large Courseworks, apply these skills.",
+                "This module also covered more advanced version control using GitHub and GitLab, along with JSON formatting and best practices for programming and working in teams."
+            ]
+        },
+        {
+            "ModuleName": "Databases and Interfaces",
+            "ModuleCode": "COMP1004",
+            "Credits": 10,
+            "Score": "77%",
+            "Semester": 2,
+            "Convenors": 
+            [
+                {
+                    "Name": "Nazia Hameed",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/nazia.hameed"
+                },
+                {
+                    "Name": "Kai Xu",
+                    "Link": "https://kaixu.me/"
+                }
+            ],
+            "Description": 
+            [
+                "This module covered Databases and how to interact with them using websites. It focused on relational databases and different ways to display and manipulate them. We mainly used SQLite and PostgreSQL."
+            ]
+        },
+        {
+            "ModuleName": "Programming and Algorithms",
+            "ModuleCode": "COMP1005",
+            "Credits": 20,
+            "Score": "97%",
+            "Semester": 1,
+            "Convenors":
+            [
+                {
+                    "Name": "Dr Jamie Twycross",
+                    "Link": "https://www.cs.nott.ac.uk/~pszjpt/"
+                },
+                {
+                    "Name": "Dr Marjahan Begum",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/marjahan.begum"
+                }
+            ],
+            "Description":
+            [
+                "This module taught programming basics using the C programming language. It included I/O, file manipulation, data-types and structures and recursion."
+            ]
+        },
+        {
+            "ModuleName": "Systems and Architecture",
+            "ModuleCode": "COMP1006",
+            "Credits": 20,
+            "Score": "100%",
+            "Semester": 1,
+            "Convenors": 
+            [
+                {
+                    "Name": "Dr Steven Bagley",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/steven.bagley"
+                }
+            ],
+            "Description": 
+            [
+                "This module taught how computers are programmed at the CPU level, using Assembly Code. For this module we used the ARM assembly language. This allowed us to gain a high level of understanding about how complex structures, presented in High-Level Languages can be broken down into storing, retrieving and manipulating individual bytes.",
+                "We also learnt about networking and how this allows computers to communicate. Looking at the challenges faced when networking was first being developed and the systems that we used currently to create stable and secure connections between different devices."
+            ]
+        },
+        {
+            "ModuleName": "Computer Fundermentals",
+            "ModuleCode": "COMP1007",
+            "Credits": 10,
+            "Score": "98%",
+            "Semester": 1,
+            "Convenors": 
+            [
+                {
+                    "Name": "Dr Steven Bagley",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/steven.bagley"
+                }
+            ],
+            "Description": 
+            [
+                "This module taught how computers are built from physical components and logic circuits. It covered Arithmetic and Digital Logic, State Machines and different layers of abstraction. We used the Hardware Descriptor Langauge, to describe logic circuits, and used an emulator (Nand-2-Tetris) to see the effects of the code."
+            ]
+        },
+        {
+            "ModuleName": "Fundamentals of Artificial Intelligence",
+            "ModuleCode": "COMP1008",
+            "Credits": 10,
+            "Score": "72%",
+            "Semester": 2,
+            "Convenors": 
+            [
+                {
+                    "Name": "Prof Rong Qu",
+                    "Link": "https://www.cs.nott.ac.uk/~pszrq/"
+                }
+            ],
+            "Description": 
+            [
+                "This module focused on learning the basics of Machine Learning. This included data pre-processing, Supervised and Un-supervised Learning, Artificial Neural Networks, Regression Models, Search Tree's and Natural Langauge Processing. We learnt how each of these are used in real situations and how Artificial Intelligence can be split up into many different sections or types."
+            ]
+        },
+        {
+            "ModuleName": "Programming Paradigms",
+            "ModuleCode": "COMP1009",
+            "Credits": 20,
+            "Score": "74%",
+            "Semester": 2,
+            "Convenors":
+            [
+                {
+                    "Name": "Dr Jason Atkin",
+                    "Link": "https://www.cs.nott.ac.uk/~pszja/"
+                },
+                {
+                    "Name": "Prof Graham Hutton",
+                    "Link": "https://www.cs.nott.ac.uk/~pszgmh/"
+                }
+            ],
+            "Description": 
+            [
+                "This module was split into two sections, both focused on different Programming Paradigms. We focused on Object-Oriented Programming and Functional Programming, using Java and Haskell respectively.",
+                "In the Object-Oriented side of the course, we learnt about different object oriented methods, and design patterns. These were then applied in courseworks which allowed us to show our understanding by using Java code to create Object-Oriented Programs.",
+                "In the Functional Programming side of the course, we learnt about functional programming and how it differs from traditional High-Level languages. We used Haskell to demonstrate this, and reinforeced our learning through weekly courseworks which allowed us to get hands on experience with a different style of programming"
+            ]
+        },
+        {
+            "ModuleName": "Mathematics for Computer Scientists 2",
+            "ModuleCode": "COMP10043",
+            "Credits": 10,
+            "Score": "72%",
+            "Semester": 1,
+            "Convenors": 
+            [
+                {
+                    "Name": "Dr Ulrik Buchholtz",
+                    "Link": "https://ulrikbuchholtz.dk/"
+                }
+            ],
+            "Description":
+            [
+                "This module covered Linear Algebra, and how it can be used with computer science. It demonstrated how many different problems can be displayed using matrices and then manipulated to show data patterns, and solve an issue. We also used Python to create a program which takes a matrix input, and outputs a Row-Reduced Echelon Form version of the same matrix."   
+            ]
+        }
+    ]
+}
