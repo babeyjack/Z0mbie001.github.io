@@ -251,7 +251,7 @@
                     "CSS",
                     "JavaScript"
                 ],
-                "Version": "v1.1.0"
+                "Version": "v1.2.0"
             },
             "Description": 
             [
@@ -316,6 +316,66 @@
                 "This project is a Real-Time Strategy game. It invloves a complex resource managmenet system, with multiple building types. It is based off of the game Settlers IV, which is an older game, but still one of my favorites.",
                 "Creating this game is complex becuase of all the different parts that go into it. I am currently working on the resource collection and movement system. This uses C# events and IEnumerators to achieve multi-threading and increased performance. Using C# events allows all relevant classes to be notified when there is a change.",
                 "I used some pre-made assets, as my art and 3D modeling skills still need some work."
+            ],
+            "Screenshots": 
+            [
+
+            ]
+        },
+        {
+            "ID": "songgame",
+            "Name": "Song Game",
+            "Title": "Song Game: A Python game where you are scored on how many song names you know",
+            "Link": "https://github.com/Z0mbie001/song-game/tree/main",
+            "PageLink": "?proj=songgame",
+            "Details":
+            {
+                "Updated": "",
+                "Platforms": "Python Interpreter",
+                "GameEngine": "",
+                "ProgLang":
+                [
+                    "Python"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description":
+            [
+                "This project is a Text-Based game. It involved using the initials of a song title and the artist that released the song to guess the song title.",
+                "It was initially created for my GCSE Computer Science NEA, it scored me a 100% for this section. I used my iniciative and included encryption for the user accounts so that their passwords were secure and that their scores couldn't be modified.",
+                "When transfering this project to a GitHub repository, I realised there were many improvements that could've been made. Any versions past v1.0.0, are me making these improvements."
+            ],
+            "Screenshots": 
+            [
+
+            ]
+        },
+        {
+            "ID": "barcode",
+            "Name": "Barcode Scanner",
+            "Title": "Barcode Scanner: A Python tool to check barcodes and manage stock",
+            "Link": "https://github.com/Z0mbie001/barcode-scanner",
+            "PageLink": "?proj=barcode",
+            "Details": 
+            {
+                "Updated": "",
+                "Platforms": "Python Interpreter",
+                "GameEngine": "",
+                "ProgLang": 
+                [
+                    "Python"
+                ],
+                "Version": "v1.0.0"
+            },
+            "Description": 
+            [
+                "This project is a Text-Based Tool. It allows the user to check for a valid 7 number barcode, remove stock from the system, create a reciept and add stock to the system.",
+                "It was initially created for my GCSE Computer Science, as a mock before my real NEA. My teacher scored it 100%.",
+                "When transfering this project to a GitHub repository, I realised there were many improvements that could've been made. Any versions past v1.0.0, are me making these improvements."
+            ],
+            "Screenshots": 
+            [
+
             ]
         }
     ],
