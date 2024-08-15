@@ -205,5 +205,47 @@
                 "This module covered Linear Algebra, and how it can be used with computer science. It demonstrated how many different problems can be displayed using matrices and then manipulated to show data patterns, and solve an issue. We also used Python to create a program which takes a matrix input, and outputs a Row-Reduced Echelon Form version of the same matrix."   
             ]
         }
+    ],
+    "YearTwo":
+    [
+        {
+            "ModuleName": "",
+            "ModuleCode": "",
+            "Credits": "",
+            "Score": "",
+            "Semester": "",
+            "Convenors": 
+            [
+                {
+                    "Name": "",
+                    "Link": ""
+                }
+            ],
+            "Description": 
+            [
+                ""
+            ]
+        }
+    ],
+    "Template":
+    [
+        {
+            "ModuleName": "",
+            "ModuleCode": "",
+            "Credits": "",
+            "Score": "",
+            "Semester": "",
+            "Convenors": 
+            [
+                {
+                    "Name": "",
+                    "Link": ""
+                }
+            ],
+            "Description": 
+            [
+                ""
+            ]
+        }
     ]
 }
