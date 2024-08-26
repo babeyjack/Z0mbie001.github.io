@@ -76,6 +76,9 @@ function refreshExperiences()
                 var newHeader = document.createElement("h3");
                 newHeader.innerHTML = data.Experience[i].Roles[j].RoleTitle
 
+                var newDates = document.createElement("h4");
+                newDates.innerHTML = data.Experience[i].Roles[j].RoleDates
+
                 var newList = document.createElement("ul");
                 for(let k = 0; k < data.Experience[i].Roles[j].Details.length; k++)
                 {
@@ -88,6 +91,7 @@ function refreshExperiences()
                 }
             }
             newDiv.appendChild(newHeader);
+            newDiv.appendChild(newDates);
             newDiv.appendChild(newList);
 
             experienceHolder.appendChild(newButton);
