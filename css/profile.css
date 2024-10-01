@@ -129,14 +129,14 @@ aside img
     margin: 0px;
 }
 
-#about-me
+#about-me-span
 {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr;
 }
 
-#about-me aside
+#about-me-span aside
 {
     background: none;
     grid-column: 1;
@@ -144,7 +144,7 @@ aside img
     padding: 0px;
 }
 
-#about-me aside img
+#about-me-span aside img
 {
     width: 100%;
     margin: 0px;
