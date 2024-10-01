@@ -1,4 +1,9 @@
 /*Standard Body Elements*/
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     background-color: #0a1627;
