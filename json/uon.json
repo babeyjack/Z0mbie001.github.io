@@ -209,21 +209,93 @@
     "YearTwo":
     [
         {
-            "ModuleName": "",
-            "ModuleCode": "",
-            "Credits": "",
-            "Score": "",
-            "Semester": "",
+            "ModuleName": "Software Engineering Group Project",
+            "ModuleCode": "COMP2002",
+            "Credits": "20",
+            "Score": "Pending",
+            "Semester": "0",
             "Convenors": 
             [
                 {
-                    "Name": "",
-                    "Link": ""
+                    "Name": "Dr Geert De Maere",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/geert.de_maere"
                 }
             ],
             "Description": 
             [
-                ""
+                "A group project to bring together the theory that was taught in Year One.",
+                "In this module we work together in randomly assigned teams to produce a piece of software for an industry client.",
+                "This could include creating software specifications and requirements based off of the clients needs, prototyping, development, testing and delivery.",
+                "It also enables us to build our soft skills, including project management and interpersonal skills.",
+                "At the end of the year, we deliver the project to our client and take part in the 'Project Showcase' where we display our project to other students, faculty and industry partners."
+            ]
+        },
+        {
+            "ModuleName": "Operating Systems & Concurrency",
+            "ModuleCode": "COMP2007",
+            "Credits": "20",
+            "Score": "Pending",
+            "Semester": "1",
+            "Convenors": 
+            [
+                {
+                    "Name": "Dr Geert De Maere",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/geert.de_maere"
+                },
+                {
+                    "Name": "Dr Dan Marsden",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/dan.marsden"
+                }
+            ],
+            "Description": 
+            [
+                "This module focuses on Opertating Systems, the services it provides programmers and the CPU, as well as how to implement multi-core and multi-threading when programming in C.",
+                "This will allow us to better understand what happens when we interact with the Operating System, and why we have to program in a specific way.",
+                "It will also help us to develop software which can make better use of the computer's full resoruces."
+            ]
+        },
+        {
+            "ModuleName": "Developing Maintainable Software",
+            "ModuleCode": "COMP2013",
+            "Credits": "20",
+            "Score": "Pending",
+            "Semester": "1",
+            "Convenors": 
+            [
+                {
+                    "Name": "Dr Marjahan Begum",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/marjahan.begum"
+                },
+                {
+                    "Name": "Mr Ian Knight",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/ian.knight2"
+                }
+            ],
+            "Description": 
+            [
+                "This module focuses on teaching us how to develop software that can be easily maintained and improved.",
+                "This will enable us to produce better quaility software which can be reviewed, modified, fixed and improved by others easily",
+                "It also highlights the importance of good quality code in reducing the amount of errors and time to create a working piece of software."   
+            ]
+        },
+        {
+            "ModuleName": "Introduction to Formal Reasoning",
+            "ModuleCode": "COMP20065",
+            "Credits": "10",
+            "Score": "Pending",
+            "Semester": "1",
+            "Convenors": 
+            [
+                {
+                    "Name": "Prof Thorsten Altenkirch",
+                    "Link": "https://www.nottingham.ac.uk/computerscience/people/thorsten.altenkirch"
+                }
+            ],
+            "Description": 
+            [
+                "This module covers a basic introduction to formal reasoning and proofs, with applications in program verification and Mathematics.",
+                "We use and interactive proof system called Lean which allows us to make statements and verify that what we have proposed is correct.",
+                "This module also helps develop skills in informal reasoning. It covers propositional logic, classical principles, predicate logic, the theories of Booleans, natural numbers, lists and trees, and the verification of simple algorithms."
             ]
         }
     ],
