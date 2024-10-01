@@ -15,6 +15,7 @@ h2
     color:rgb(206, 206, 206);
     text-align: center;
     font-size: x-large;
+    margin: 10px;
 }
 
 h3
@@ -47,11 +48,14 @@ li
 /*Header Elements*/
 header
 {
+    background-color: #0a1627;
     display: block;
     align-items: center;
     min-height: 50px;
     min-width: 100%;
     padding-right: 100px;
+    position: sticky;
+    top: 0;
 }
 
 header h1
@@ -115,6 +119,11 @@ aside img
 
 
 /*About Me Elements*/
+#about-me-title
+{
+    margin: 0px;
+}
+
 #about-me
 {
     display: grid;
@@ -158,11 +167,6 @@ aside img
 .profile-main img
 {
     max-width: 500px;
-}
-
-.profile-main h2
-{
-    margin: 0px;
 }
 
 #project-desc
