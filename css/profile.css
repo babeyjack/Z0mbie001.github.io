@@ -54,11 +54,11 @@ li
 header
 {
     background-color: #0a1627;
-    display: block;
+    display: flexbox;
     align-items: center;
     min-height: 50px;
     min-width: 100%;
-    padding-right: 100px;
+    max-height: 300px;
     position: sticky;
     top: 0;
 }
@@ -76,16 +76,25 @@ header ul
     align-self: center;
     float: right;
     text-align: right;
+    font-size: large;
     list-style: none;
     display: flex;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: auto;
+    padding-bottom: auto;
     margin: 0px;
+    height: 100%;
 }
 
 header ul li
 {
     padding: 10px;
+}
+
+header img
+{
+    display: inline-block;
+    align-self: center;
+    height: 100px;
 }
 
 /*Footer Elements*/
