@@ -1,16 +1,94 @@
+/*Standard Body Elements*/
 body
 {
-    background-color: black;
+    background-color: #0a1627;
+    color: #c1c1c1;
 }
 
-#profile-body
+h1
 {
-    display: grid;
-    grid-template-columns: 1.5fr 4fr;
-    grid-template-rows: 4fr 1fr;
-    gap: 10px;
+    text-align: center;
 }
 
+h2
+{
+    color:rgb(206, 206, 206);
+    text-align: center;
+    font-size: x-large;
+}
+
+h3
+{
+    color: white;
+}
+
+p
+{
+    color: rgb(241, 241, 241);
+}
+
+ul
+{
+    list-style: none;
+    padding: 0px;
+}
+
+a 
+{
+    color: rgb(192, 0, 0);
+}
+
+li 
+{
+    color: rgb(241, 241, 241);
+}
+
+
+/*Header Elements*/
+header
+{
+    display: block;
+    align-items: center;
+    min-height: 50px;
+    min-width: 100%;
+    padding-right: 100px;
+}
+
+header h1
+{
+    align-self: center;
+    float: left;
+    padding: 0.5rem;
+    margin: 0px;
+}
+
+header ul
+{
+    align-self: center;
+    float: right;
+    text-align: right;
+    list-style: none;
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0px;
+}
+
+header ul li
+{
+    padding: 10px;
+}
+
+/*Footer Elements*/
+footer
+{
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+
+
+/*Aside Elements*/
 aside
 {
     background-color: rgb(56, 56, 56);
@@ -35,51 +113,41 @@ aside img
     margin-right: 10px;
 }
 
-footer
+
+/*About Me Elements*/
+#about-me
 {
-    grid-row: 2;
-    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
 }
 
-h1
+#about-me aside
 {
-    color:rgb(206, 206, 206);
-    text-align: center;
-}
-
-h2
-{
-    color:rgb(206, 206, 206);
-    text-align: center;
-}
-
-h3
-{
-    color: white;
-}
-
-p
-{
-    color: rgb(241, 241, 241);
-}
-
-ul
-{
-    list-style: none;
+    background: none;
+    grid-column: 1;
+    grid-row: 1;
     padding: 0px;
 }
 
-a
+#about-me aside img
 {
-    color: rgb(192, 0, 0);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
-li
+/*Profile Elements*/
+#profile-body
 {
-    color: rgb(241, 241, 241);
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 4fr 1fr;
+    gap: 10px;
+    width: 100%;
 }
 
-#profile-main
+.profile-main
 {
     grid-column: 2;
     margin: 10px;
@@ -87,9 +155,14 @@ li
     text-align: center;
 }
 
-#profile-main h2
+.profile-main img
 {
-    margin-bottom: 0px;
+    max-width: 500px;
+}
+
+.profile-main h2
+{
+    margin: 0px;
 }
 
 #project-desc
@@ -97,6 +170,7 @@ li
     margin: 0px;
 }
 
+/*Collapsables*/
 .collapsable
 {
     background-color: rgb(54, 54, 54);
@@ -137,6 +211,9 @@ li
     content: "\0ff0d";
 }
 
+
+
+/*Dropdowns*/
 .dropdown-content
 {
     display: none;
@@ -182,6 +259,8 @@ li
     display: inline;
 }
 
+
+/*Lists*/
 .list-holder
 {
     display: flex;
@@ -191,6 +270,9 @@ li
     justify-content: center;
 }
 
+
+
+/*Screenshot*/
 #screenshot-holder
 {
     display: flexbox;
@@ -205,6 +287,9 @@ li
     margin: 5px;
 }
 
+
+
+/*Interactive CSS*/
 @media only screen and (max-width: 500px)
 {
     footer {grid-column: 1;}
