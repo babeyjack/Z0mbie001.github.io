@@ -1,7 +1,7 @@
 // Get UI Elements 
-const qualificationHolder = document.getElementById("qualifications");
-const experienceHolder = document.getElementById("experience");
-const hobbiesHolder = document.getElementById("hobbies");
+const qualificationHolder = document.getElementById("qualifications-holder");
+const experienceHolder = document.getElementById("experience-holder");
+const hobbiesHolder = document.getElementById("hobbies-holder");
 
 var coll = [];
 
