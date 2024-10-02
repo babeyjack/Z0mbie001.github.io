@@ -5,7 +5,7 @@
             "Title": "Mountain Training",
             "Details": 
             [
-                "Foundation Coach Training (2017/10 September 2021)",
+                "Foundation Coach Training (10 September 2021)",
                 "Climbing Wall Instructor Training (20 Febuary 2022)",
                 "Climbing Wall Instructor Award (24 July 2023)",
                 "Climbing Wall Development Instructor Training (22 July 2024)",
@@ -71,9 +71,9 @@
                 "English Language (7)",
                 "Mathematics (9)",
                 "Further Mathematics (A)",
-                "Statistics",
+                "Statistics (Pass)",
                 "Physics (8)",
-                "Chemestry (9)",
+                "Chemistry (9)",
                 "Biology (8)",
                 "French (5)",
                 "Design Technology: Timbers (8)",
@@ -87,12 +87,12 @@
             "Title": "Wymondham College (2021 - 2023)",
             "Details":
             [
-                "Mathematics (A)",
-                "Further Mathematics (B)",
-                "Physics (A)",
                 "Computer Science (A)",
-                "Sixth Form Star",
-                "Head Teacher's Award"
+                "Mathematics (A)",
+                "Physics (A)",
+                "Further Mathematics (B)",
+                "Sixth Form Star x3",
+                "Head Teacher's Award x4"
             ]
         },
         {
@@ -119,12 +119,11 @@
                         "Health & Safety",
                         "Organisation",
                         "Problem Solving",
-                        "Working Under Pressure",
                         "Communication Skills",
                         "Accuracy & Precision",
-                        "Knowledge of Saftey Systems and Procedures",
                         "Group Management",
-                        "Working at height"
+                        "Working at height",
+                        "Working Under Pressure"
                     ]
                 }
             ]
@@ -176,12 +175,12 @@
             ]
         },
         {
-            "Title": "Go Ape (June 2022 - Onwards)",
+            "Title": "Go Ape (June 2022 - September 2024)",
             "Roles":
             [
                 {
                     "RoleTitle": "Outdoor Activity Instructor",
-                    "RoleDates": "June 2022 - Onwards",
+                    "RoleDates": "June 2022 - September 2024",
                     "Details":
                     [
                         "Working at height",
@@ -282,8 +281,8 @@
             [
                 "I have been climbing since 2011",
                 "I have competed at a National Level",
-                "I have climbed both Indoors and Outdoors",
-                "I have also completed a multi-pitch up Tryfan in North Wales, among others"
+                "I have climbed both indoors and outdoors",
+                "I have also completed multi-pitch climbs up Tryfan in North Wales, among others"
             ]
         },
         {
