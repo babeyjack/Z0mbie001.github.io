@@ -35,12 +35,14 @@
             </span>
             <div id="profile-main" style="grid-column: span 2;">
                 <span id="project-list">
-                    <p>Welcome to my projects page, this has a list of all of the projects that I have created and wish to show off. Feel free to have a look around and contact me if you need anything.</p>
+                    <p style="text-align: center;">Welcome to my projects page, this has a list of all of the projects that I have created and wish to show off. Feel free to have a look around and contact me if you need anything.</p>
                     <!--<p>If you would like to return to the profile page, <a href="./profile.html">click here</a>.</p>-->
                     <h2>GitHub Stats</h2>
-                    <img src="https://github-readme-stats.vercel.app/api?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" alt="Jack Babey's GitHub stats"/>
-                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Z0mbie001&theme=midnight-purple&hide_border=true" alt="Jack Babey's GitHub Stats"/>
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact" alt="Jack Babey's GitHub Stats"/>
+                    <span id="git-stats-holder">
+                        <img src="https://github-readme-stats.vercel.app/api?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true" alt="Jack Babey's GitHub stats" class="git-stats"/>
+                        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Z0mbie001&theme=midnight-purple&hide_border=true" alt="Jack Babey's GitHub Stats" class="git-stats"/>
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Z0mbie001&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact" alt="Jack Babey's GitHub Stats" class="git-stats"/>
+                    </span>
                     <h2>Project List</h2>
                     <div class="list-holder" id="projects"></div>
                 </span>

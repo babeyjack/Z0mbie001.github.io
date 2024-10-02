@@ -113,30 +113,6 @@
     "Experience":
     [
         {
-            "Title": "Boost Climbing",
-            "Roles": 
-            [
-                {
-                    "RoleTitle": "Volunteer Climbing Instructor",
-                    "RoleDates": "September 2017 - Onwards",
-                    "Details":
-                    [
-                        "Customer Service",
-                        "Team Work",
-                        "Health & Safety (First Aid)",
-                        "Safeguarding",
-                        "Organisation",
-                        "Problem Solving",
-                        "Communication Skills",
-                        "Accuracy & Precision",
-                        "Group Management",
-                        "Working at height",
-                        "Working Under Pressure"
-                    ]
-                }
-            ]
-        },
-        {
             "Title": "Fountain of Life Church, Ashill",
             "Roles":
             [
@@ -157,6 +133,30 @@
                         "Working Under Pressure",
                         "Organisation",
                         "Communication Skills"
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "Boost Climbing",
+            "Roles": 
+            [
+                {
+                    "RoleTitle": "Volunteer Climbing Instructor",
+                    "RoleDates": "September 2017 - Onwards",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety (First Aid)",
+                        "Safeguarding",
+                        "Organisation",
+                        "Problem Solving",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Group Management",
+                        "Working at height",
+                        "Working Under Pressure"
                     ]
                 }
             ]
@@ -254,32 +254,7 @@
                         "Accuracy & Precision",
                         "Knowledge of Saftey Systems and Procedures",
                         "Group Management",
-                        "Working at height"
-                    ]
-                }
-            ]
-        },
-        {
-            "Title": "University of Nottingham Climbing Club",
-            "Roles":
-            [
-                {
-                    "RoleTitle": "Training Secretary",
-                    "RoleDates": "September 2023 - Onwards",
-                    "Details":
-                    [
-                        "Customer Service",
-                        "Team Work",
-                        "Health & Safety (First Aid)",
-                        "Safeguarding",
-                        "Organisation",
-                        "Problem Solving",
-                        "Working Under Pressure",
-                        "Communication Skills",
-                        "Accuracy & Precision",
-                        "Knowledge of Saftey Systems and Procedures",
-                        "Group Management",
-                        "Working at height"
+                        "Working at Height"
                     ]
                 }
             ]
@@ -304,7 +279,32 @@
                         "Accuracy & Precision",
                         "Knowledge of Saftey Systems and Procedures",
                         "Group Management",
-                        "Working at height"
+                        "Working at Height"
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "University of Nottingham Climbing Club",
+            "Roles":
+            [
+                {
+                    "RoleTitle": "Training Secretary",
+                    "RoleDates": "September 2023 - Onwards",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety (First Aid)",
+                        "Safeguarding",
+                        "Organisation",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Knowledge of Saftey Systems and Procedures",
+                        "Group Management",
+                        "Working at Height"
                     ]
                 }
             ]
@@ -316,22 +316,22 @@
             "Title": "Climbing",
             "Details":
             [
-                "I have been climbing since 2011",
                 "I have competed at a National Level",
-                "I have climbed both indoors and outdoors",
+                "I have coached clients along side ex-GB head coaches",
+                "I have been climbing since 2011",
                 "I have also completed multi-pitch climbs up Tryfan in North Wales, among others"
             ]
         },
         {
-            "Title": "Computer Science",
+            "Title": "Computer Science",                
             "Details":
             [
-                "I built my own computer in 2017",
+                "I was part of a regional team in the Thorpe Park Programming Project, and made it to the national finals in London",
                 "I have created many game prototypes using Unity Engine and C#",
                 "I have 2 Raspberry Pi's and an Arduino and use them for physical programming, such as PiHole and PiVPN",
                 "I have a high-level of knowledge of streaming and recording in high quality",
                 "I have a high-level of knowledge about computers",
-                "I was part of a regional team in the Thorpe Park Programming Project, and made it to the finals in London",
+                "I built my own computer in 2017",
                 "I have proficiency in all areas of Microsoft Office",
                 "I program in many different programming languages including, Python, C++, C#, HTML, and Linux Command Line"
             ]

@@ -282,6 +282,24 @@ aside img
 }
 
 
+/*Git Stats*/
+#git-stats-holder
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+}
+
+.git-stats
+{
+    padding: 5px;
+    height: 215px;
+}
+
+
 /*Lists*/
 .list-holder
 {
