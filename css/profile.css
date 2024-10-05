@@ -58,7 +58,7 @@ header
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    min-height: 50px;
+    min-height: 110px;
     min-width: 100%;
     max-height: 300px;
     position: sticky;
@@ -279,6 +279,24 @@ aside img
 .dropdown-content ul p
 {
     display: inline;
+}
+
+
+/*Git Stats*/
+#git-stats-holder
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+}
+
+.git-stats
+{
+    padding: 5px;
+    height: 215px;
 }
 
 

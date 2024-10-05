@@ -2,6 +2,17 @@
     "Qualifications": 
     [
         {
+            "Title": "Udemy Online Classroom",
+            "Details":
+            [
+                "2D Platformer Programming Course (28 June 2019)",
+                "2D RPG Programming Course (17 August 2022)",
+                "C++ Programming Course (Ongoing)",
+                "Learn Cloud Computing | AWS Cloud Practitioner CLF-C02 (Ongoing)",
+                "Docker & Kubernetes: The Practical Guide (Ongoing)"
+            ]
+        },
+        {
             "Title": "Mountain Training",
             "Details": 
             [
@@ -9,7 +20,14 @@
                 "Climbing Wall Instructor Training (20 Febuary 2022)",
                 "Climbing Wall Instructor Award (24 July 2023)",
                 "Climbing Wall Development Instructor Training (22 July 2024)",
-                "Rock Climbing Instructor Training (13 September 2024)"
+                "Rock Climbing Instructor Training (11 October 2024)"
+            ]
+        },
+        {
+            "Title": "Royal Life Saving Society UK",
+            "Details":
+            [
+                "First Aid at Work (expr. 19 April 2026)"
             ]
         },
         {
@@ -23,21 +41,24 @@
             ]
         },
         {
-            "Title": "Udemy Online Classroom",
+            "Title": "National Citizen Service",
             "Details":
             [
-                "2D Platformer Programming Course (28 June 2019)",
-                "2D RPG Programming Course (17 August 2022)",
-                "C++ Programming Course (Ongoing)",
-                "Learn Cloud Computing | AWS Cloud Practitioner CLF-C02 (Ongoing)",
-                "Docker & Kubernetes: The Practical Guide (Ongoing)"
+                "2-Week Course incl. Social Action Project (Summer 2021)"
+            ]
+        },
+        {
+            "Title": "Uptree",
+            "Details":
+            [
+                "2-hour Virtual Work Experience with ARM (2021)"
             ]
         },
         {
             "Title": "Taekwondo (2010 - 2016)",
             "Details":
             [
-                "Blue Belt, Brown Tabs (3rd Kup) (2016)"
+                "Blue Belt, Brown Tabs (3rd Kup)"
             ]
         },
         {
@@ -50,36 +71,22 @@
             ]
         },
         {
-            "Title": "National Citizen Service (2021)",
-            "Details":
-            [
-                "2-Week Course incl. Social Action Project"
-            ]
-        },
-        {
-            "Title": "Uptree (2021)",
-            "Details":
-            [
-                "2-hour Virtual Work Experience with ARM"
-            ]
-        },
-        {
             "Title": "Litcham School (2015 - 2020)",
             "Details":
             [
-                "English Literature (7)",
-                "English Language (7)",
-                "Mathematics (9)",
-                "Further Mathematics (A)",
-                "Statistics (Pass)",
-                "Physics (8)",
-                "Chemistry (9)",
-                "Biology (8)",
-                "French (5)",
-                "Design Technology: Timbers (8)",
-                "Information Technology (95% Avg)",
-                "Computer Science (9)",
-                "Geography (7)"
+                "GCSE English Literature (7)",
+                "GCSE English Language (7)",
+                "GCSE Mathematics (9)",
+                "Level 2 Further Mathematics (A)",
+                "GCSE Statistics (Pass)",
+                "GCSE Physics (8)",
+                "GCSE Chemistry (9)",
+                "GCSE Biology (8)",
+                "GCSE French (5)",
+                "GCSE Design Technology: Timbers (8)",
+                "Level 2 Information Technology (95% Avg)",
+                "GCSE Computer Science (9)",
+                "GCSE Geography (7)"
 
             ]
         },
@@ -87,10 +94,10 @@
             "Title": "Wymondham College (2021 - 2023)",
             "Details":
             [
-                "Computer Science (A)",
-                "Mathematics (A)",
-                "Physics (A)",
-                "Further Mathematics (B)",
+                "A-Level Computer Science (A)",
+                "A-Level Mathematics (A)",
+                "A-Level Physics (A)",
+                "A-Level Further Mathematics (B)",
                 "Sixth Form Star x3",
                 "Head Teacher's Award x4"
             ]
@@ -106,7 +113,32 @@
     "Experience":
     [
         {
-            "Title": "Boost Climbing (September 2017 - Onwards)",
+            "Title": "Fountain of Life Church, Ashill",
+            "Roles":
+            [
+                {
+                    "RoleTitle": "Volunteer Sound Engineer",
+                    "RoleDates": "March 2017 - Onwards",
+                    "Details":
+                    [
+                        "Live Audio Mixing",
+                        "Allen & Heath QU-32",
+                        "Allen & Heath QU-SB",
+                        "Parametric Equalisation",
+                        "Compression",
+                        "Health & Safety (Electrical Saftey and First Aid)",
+                        "Team Work",
+                        "Knowledge of Products",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Organisation",
+                        "Communication Skills"
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "Boost Climbing",
             "Roles": 
             [
                 {
@@ -117,7 +149,8 @@
                         "Teaching adults and young people how to climb. Using the most recent safety advice to ensure that they stay safe. I teach them skills like curiosity, critical thinking and perserverance which help them on and off of the climbing wall",
                         "Customer Service",
                         "Team Work",
-                        "Health & Safety",
+                        "Health & Safety (First Aid)",
+                        "Safeguarding",
                         "Organisation",
                         "Problem Solving",
                         "Communication Skills",
@@ -130,7 +163,7 @@
             ]
         },
         {
-            "Title": "Sound Stage Systems (July 2021)",
+            "Title": "Sound Stage Systems",
             "Roles":
             [
                 {
@@ -141,20 +174,21 @@
                         "Live audio mixing in a professional enviornment. Working for a team with over 35 years experience. Ensuring that the quality of the audio isn't distracting to the listener and making the performers sound their best on stage.",
                         "Live Audio Mixing",
                         "Soundcraft Si Expression 3",
-                        "Allen & Heath QU-32",
-                        "Allen & Heath QU-SB",
                         "Parametric Equalisation",
                         "Compression",
-                        "Health & Safety",
+                        "Health & Safety (Electrical Saftey and First Aid)",
                         "Team Work",
-                        "Electrical Safety",
-                        "Knowledge of Saftey Systems and Procedures"
+                        "Knowledge of Products",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Communication Skills",
+                        "Organisation"
                     ]
                 }
             ]
         },
         {
-            "Title": "ROARR! Dinosaur Adventure (September 2021 - June 2022)",
+            "Title": "ROARR! Dinosaur Adventure",
             "Roles":
             [
                 {
@@ -167,18 +201,18 @@
                         "Communication Skills",
                         "Team Work",
                         "Cash Handling",
-                        "Health & Safety",
+                        "Health & Safety (Electrical Saftey and First Aid)",
                         "Hygiene & Cleanliness",
                         "Organisation",
                         "Accuracy, Quality & Speed of Service",
                         "Product Knowledge and Up-selling",
-                        "Electrical Safety"
+                        "Working Under Pressure"
                     ]
                 }
             ]
         },
         {
-            "Title": "Go Ape (June 2022 - September 2024)",
+            "Title": "Go Ape",
             "Roles":
             [
                 {
@@ -189,7 +223,8 @@
                         "Working at height",
                         "Customer Service",
                         "Team Work",
-                        "Health & Safety",
+                        "Health & Safety (Electrical Saftey and First Aid)",
+                        "Safeguarding",
                         "Working Under Pressure",
                         "Organisation",
                         "Communication Skills",
@@ -197,14 +232,13 @@
                         "Product Knowledge and Up-selling",
                         "Knowledge of Saftey Systems and Procedures",
                         "Problem Solving",
-                        "Electrical Safety",
                         "Group Management"
                     ]
                 }
             ]
         },
         {
-            "Title": "University of Nottingham (September 2023 - Onwards)",
+            "Title": "University of Nottingham",
             "Roles":
             [
                 {
@@ -215,7 +249,8 @@
                         "Teaching adults and young people how to climb. Using the most recent safety advice to ensure that they stay safe. I teach them skills like curiosity, critical thinking and perserverance which help them on and off of the climbing wall",
                         "Customer Service",
                         "Team Work",
-                        "Health & Safety",
+                        "Health & Safety (First Aid)",
+                        "Safeguarding",
                         "Organisation",
                         "Problem Solving",
                         "Working Under Pressure",
@@ -223,37 +258,13 @@
                         "Accuracy & Precision",
                         "Knowledge of Saftey Systems and Procedures",
                         "Group Management",
-                        "Working at height"
+                        "Working at Height"
                     ]
                 }
             ]
         },
         {
-            "Title": "University of Nottingham Climbing Club (September 2023 - Onwards)",
-            "Roles":
-            [
-                {
-                    "RoleTitle": "Training Secretary",
-                    "RoleDates": "September 2023 - Onwards",
-                    "Details":
-                    [
-                        "Customer Service",
-                        "Team Work",
-                        "Health & Safety",
-                        "Organisation",
-                        "Problem Solving",
-                        "Working Under Pressure",
-                        "Communication Skills",
-                        "Accuracy & Precision",
-                        "Knowledge of Saftey Systems and Procedures",
-                        "Group Management",
-                        "Working at height"
-                    ]
-                }
-            ]
-        },
-        {
-            "Title": "Nottingham Climbing Centre (September 2023 - Onwards)",
+            "Title": "Nottingham Climbing Centre",
             "Roles":
             [
                 {
@@ -264,7 +275,8 @@
                         "Teaching adults and young people how to climb. Using the most recent safety advice to ensure that they stay safe. I teach them skills like curiosity, critical thinking and perserverance which help them on and off of the climbing wall.",
                         "Customer Service",
                         "Team Work",
-                        "Health & Safety",
+                        "Health & Safety (First Aid)",
+                        "Safeguarding",
                         "Organisation",
                         "Problem Solving",
                         "Working Under Pressure",
@@ -272,7 +284,32 @@
                         "Accuracy & Precision",
                         "Knowledge of Saftey Systems and Procedures",
                         "Group Management",
-                        "Working at height"
+                        "Working at Height"
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": "University of Nottingham Climbing Club",
+            "Roles":
+            [
+                {
+                    "RoleTitle": "Training Secretary",
+                    "RoleDates": "September 2023 - Onwards",
+                    "Details":
+                    [
+                        "Customer Service",
+                        "Team Work",
+                        "Health & Safety (First Aid)",
+                        "Safeguarding",
+                        "Organisation",
+                        "Problem Solving",
+                        "Working Under Pressure",
+                        "Communication Skills",
+                        "Accuracy & Precision",
+                        "Knowledge of Saftey Systems and Procedures",
+                        "Group Management",
+                        "Working at Height"
                     ]
                 }
             ]
@@ -284,22 +321,22 @@
             "Title": "Climbing",
             "Details":
             [
-                "I have been climbing since 2011",
                 "I have competed at a National Level",
-                "I have climbed both indoors and outdoors",
+                "I have coached clients along side ex-GB head coaches",
+                "I have been climbing since 2011",
                 "I have also completed multi-pitch climbs up Tryfan in North Wales, among others"
             ]
         },
         {
-            "Title": "Computer Science",
+            "Title": "Computer Science",                
             "Details":
             [
-                "I built my own computer in 2017",
+                "I was part of a regional team in the Thorpe Park Programming Project, and made it to the national finals in London",
                 "I have created many game prototypes using Unity Engine and C#",
                 "I have 2 Raspberry Pi's and an Arduino and use them for physical programming, such as PiHole and PiVPN",
                 "I have a high-level of knowledge of streaming and recording in high quality",
                 "I have a high-level of knowledge about computers",
-                "I was part of a regional team in the Thorpe Park Programming Project, and made it to the finals in London",
+                "I built my own computer in 2017",
                 "I have proficiency in all areas of Microsoft Office",
                 "I program in many different programming languages including, Python, C++, C#, HTML, and Linux Command Line"
             ]
