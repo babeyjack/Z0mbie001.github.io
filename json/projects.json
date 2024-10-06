@@ -64,7 +64,7 @@
         {
             "ID": "reversi",
             "Name": "Reversi",
-            "Title": "Reversi: A 2-Player Board Game, also known as Orthelo",
+            "Title": "Reversi: A 2-Player Board Game, also known as Othello",
             "Link": "¬uni",
             "PageLink": "?proj=reversi",
             "Details": 
@@ -82,7 +82,7 @@
             [
                 "This project was given to me at University, in year one. It was a coursework given for my Java module.",
                 "Using the Java programming language, I created a 2 person, SwingGUI based game. It included creating a 'Greedy AI' to make the move that takes the most pieces.",
-                "I was given 3 interfact scripts, and a few testing scripts to check functionality. These scripts also ensured that I adheard to the object oriented paradigm."
+                "I was given 3 interface scripts, and a few testing scripts to check functionality. These scripts also ensured that I adheard to the object oriented paradigm."
             ],
             "Screenshots": 
             [
